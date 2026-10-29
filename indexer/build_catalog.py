@@ -12,13 +12,17 @@ import re
 import json
 import time
 import datetime
+import unicodedata
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import xml.etree.ElementTree as ET
 import requests
 from bs4 import BeautifulSoup
 
-TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "").strip()
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
+TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "ee1b8b6bf7db9fc09923c52464fae2d1").strip()
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
 DEFAULT_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
@@ -112,6 +116,59 @@ def detect_quality(filename: str) -> str:
     return quality or "HD"
 
 
+def has_cz_audio(filename: str) -> bool:
+    """Detect whether filename has Czech or Slovak audio dubbing."""
+    fn_lower = filename.lower()
+    has_cz_tit = bool(re.search(r"\b(cztit|sktit|titulky|cz_tit|tit|sub|subs)\b", fn_lower))
+    has_dabing = bool(re.search(r"\b(czdab|czdabing|dabing|dab|cz_sk|dual|skdab|skdabing)\b", fn_lower))
+    has_cz_word = bool(re.search(r"\b(cz|cesky|česky|sk|slovensky|slovenský)\b", fn_lower))
+    if has_cz_tit and not (has_cz_word and has_dabing) and not ("czdab" in fn_lower):
+        return False
+    return has_cz_word or has_dabing
+
+
+SEQUEL_WORDS_MAP = {
+    "2": "2", "ii": "2", "two": "2", "druhy": "2", "druha": "2", "druhe": "2",
+    "3": "3", "iii": "3", "three": "3", "treti": "3",
+    "4": "4", "iv": "4", "four": "4", "ctvrty": "4", "ctvrta": "4",
+    "5": "5", "v": "5", "five": "5", "paty": "5", "pata": "5",
+    "6": "6", "vi": "6", "six": "6", "sesty": "6", "sesta": "6",
+    "7": "7", "vii": "7", "seven": "7", "sedmy": "7", "sedma": "7",
+    "8": "8", "viii": "8", "eight": "8", "osmy": "8", "osma": "8",
+    "9": "9", "ix": "9", "nine": "9", "devaty": "9", "devata": "9",
+    "10": "10", "x": "10", "ten": "10", "desaty": "10", "desata": "10"
+}
+
+
+def extract_sequel_number(text: str) -> str:
+    """Extract normalized sequel identifier ('2', '3', etc.) from title or filename."""
+    if not text:
+        return ""
+    norm = normalize_title(text).lower()
+    clean = " " + " ".join(norm.split()) + " "
+
+    m = re.search(r"\b(cast|dil|part|chapter|volume|vol)\s*([0-9]+|[ivx]+|druh[ay]|tret[i]|ctvrt[ay])\b", clean)
+    if m:
+        num = m.group(2)
+        return SEQUEL_WORDS_MAP.get(num, num)
+
+    m = re.search(r"\b(druh[ay]|tret[i]|ctvrt[ay])\s*(cast|dil)\b", clean)
+    if m:
+        word = m.group(1)
+        return SEQUEL_WORDS_MAP.get(word, "")
+
+    m = re.search(r"\b(ii|iii|iv|vi|vii|viii|ix)\b", clean)
+    if m:
+        return SEQUEL_WORDS_MAP.get(m.group(1), "")
+
+    for token in norm.split():
+        if token in SEQUEL_WORDS_MAP:
+            return SEQUEL_WORDS_MAP[token]
+        if token.isdigit() and 2 <= int(token) <= 10:
+            return token
+    return ""
+
+
 def is_valid_file(filename: str, size_bytes: int, is_tv: bool, title_variants: list, year: int) -> bool:
     """Check if the given filename and size represent a valid match for the title."""
     fn_lower = filename.lower()
@@ -142,7 +199,11 @@ def is_valid_file(filename: str, size_bytes: int, is_tv: bool, title_variants: l
         if not words:
             continue
         # If all words of title (or first 3 important words) appear in filename
-        check_words = [w for w in words if len(w) > 2]
+        check_words = []
+        for w in words:
+            w_no_acc = "".join(c for c in unicodedata.normalize("NFD", w) if unicodedata.category(c) != "Mn")
+            if len(w) > 2 and w_no_acc not in {"cast", "dil", "part", "chapter"}:
+                check_words.append(w)
         if not check_words:
             check_words = words
         if all(w in norm_fn for w in check_words):
@@ -151,6 +212,18 @@ def is_valid_file(filename: str, size_bytes: int, is_tv: bool, title_variants: l
 
     if not matched_title:
         return False
+
+    # For movies, check sequel number match (prevents "Tiché místo 2" for "Tiché místo")
+    if not is_tv:
+        target_seq = ""
+        for t in title_variants:
+            seq = extract_sequel_number(t)
+            if seq:
+                target_seq = seq
+                break
+        fn_seq = extract_sequel_number(filename)
+        if target_seq != fn_seq:
+            return False
 
     # For movies, verify year if present in filename
     if not is_tv and year and year > 1900:
@@ -201,37 +274,43 @@ def check_webshare(query: str, is_tv: bool, title_variants: list, year: int) -> 
 
 
 def check_prehrajto(query: str, is_tv: bool, title_variants: list, year: int) -> list:
-    """Query Přehraj.to search HTML."""
+    """Query Přehraj.to search HTML with retry on HTTP 429."""
     encoded_query = urllib.parse.quote_plus(query)
     url = f"https://prehraj.to/hledej/{encoded_query}"
     headers = {"User-Agent": DEFAULT_USER_AGENT}
     valid_files = []
-    try:
-        resp = requests.get(url, headers=headers, timeout=12)
-        if resp.status_code == 200:
-            soup = BeautifulSoup(resp.content, "html.parser")
-            wrappers = soup.select(".video-wrapper, .video-listing, article")
-            for w in wrappers:
-                a_tag = w.find("a")
-                href = a_tag.get("href", "") if a_tag else ""
-                if not href or "hledej" in href:
-                    continue
 
-                texts = list(w.stripped_strings)
-                if not texts:
-                    continue
-                # Title is typically the last element
-                title = texts[-1]
-                size_bytes = 0
-                for t in texts:
-                    if re.search(r"\b\d+([.,]\d+)?\s*(GB|MB)\b", t, re.IGNORECASE):
-                        size_bytes = parse_size_string(t)
-                        break
+    for attempt in range(2):
+        try:
+            resp = requests.get(url, headers=headers, timeout=12)
+            if resp.status_code == 429:
+                time.sleep(1.5)
+                continue
+            if resp.status_code == 200:
+                soup = BeautifulSoup(resp.content, "html.parser")
+                wrappers = soup.select(".video-wrapper, article")
+                for w in wrappers:
+                    a_tag = w.find("a")
+                    href = a_tag.get("href", "") if a_tag else ""
+                    if not href or "hledej" in href:
+                        continue
 
-                if is_valid_file(title, size_bytes, is_tv, title_variants, year):
-                    valid_files.append({"name": title, "size": size_bytes, "source": "Přehraj.to"})
-    except Exception as ex:
-        pass
+                    texts = list(w.stripped_strings)
+                    if not texts:
+                        continue
+                    # Title is typically the last element
+                    title = texts[-1]
+                    size_bytes = 0
+                    for t in texts:
+                        if re.search(r"\b\d+([.,]\d+)?\s*(GB|MB)\b", t, re.IGNORECASE):
+                            size_bytes = parse_size_string(t)
+                            break
+
+                    if is_valid_file(title, size_bytes, is_tv, title_variants, year):
+                        valid_files.append({"name": title, "size": size_bytes, "source": "Přehraj.to"})
+                break
+        except Exception:
+            pass
     return valid_files
 
 
@@ -262,22 +341,35 @@ def verify_availability(item: dict) -> tuple:
         found_files.extend(ws_files)
         pt_files = check_prehrajto(q, is_tv, title_variants, year)
         found_files.extend(pt_files)
-        if found_files:
+        # If we already found files AND at least one has confirmed CZ dubbing, we can stop early
+        if found_files and any(has_cz_audio(f["name"]) for f in found_files):
             break
 
     if not found_files:
-        return False, None
+        return False, None, False
+
+    has_cz_dub = any(has_cz_audio(f["name"]) for f in found_files)
 
     # Detect best quality
     qualities = [detect_quality(f["name"]) for f in found_files]
-    # Pick highest quality: 4K > 1080p > 720p > SD
-    best_q = "HD"
-    for q in ["4K CZ", "4K", "1080p CZ", "1080p", "720p CZ", "720p", "SD CZ", "CZ"]:
-        if q in qualities:
-            best_q = q
-            break
 
-    return True, best_q
+    if has_cz_dub:
+        # CZ audio is confirmed! Prioritize CZ quality tags so English 1080p never hides CZ
+        cz_qualities = [q for q in qualities if "CZ" in q]
+        best_q = "CZ"
+        for q in ["4K CZ", "1080p CZ", "720p CZ", "SD CZ", "CZ"]:
+            if q in cz_qualities:
+                best_q = q
+                break
+    else:
+        # No CZ audio found on any file
+        best_q = "HD"
+        for q in ["4K", "1080p", "720p", "SD"]:
+            if q in qualities:
+                best_q = q
+                break
+
+    return True, best_q, has_cz_dub
 
 
 class TmdbFetcher:
@@ -504,27 +596,28 @@ def main():
 
     total_candidates = len(all_raw_items)
     print(f"\n[2/3] Total unique candidates to verify: {total_candidates}")
-    print("Checking availability on Webshare.cz and Přehraj.to in parallel (max 5 threads)...")
+    print("Checking availability on Webshare.cz and Přehraj.to in parallel (max 3 threads)...")
 
     verified_items = []
     items_list = list(all_raw_items.values())
 
     start_time = time.time()
-    with ThreadPoolExecutor(max_workers=5) as executor:
+    with ThreadPoolExecutor(max_workers=3) as executor:
         future_to_item = {executor.submit(verify_availability, item): item for item in items_list}
         done_count = 0
         for future in as_completed(future_to_item):
             item = future_to_item[future]
             done_count += 1
             try:
-                has_stream, quality = future.result()
-                status_str = f"AVAILABLE ({quality})" if has_stream else "SKIPPED (no streams)"
+                has_stream, quality, has_cz_dub = future.result()
+                status_str = f"AVAILABLE ({quality}, CZ Dub={has_cz_dub})" if has_stream else "SKIPPED (no streams)"
                 title_disp = item.get("title") or item.get("original_title")
                 print(f"  [{done_count}/{total_candidates}] {item['media_type'].upper()}: {title_disp} ({item.get('year')}) -> {status_str}")
                 if has_stream:
                     item_copy = dict(item)
                     item_copy.pop("category", None)
                     item_copy["quality"] = quality
+                    item_copy["has_cz_dubbing"] = has_cz_dub
                     verified_items.append(item_copy)
             except Exception as e:
                 print(f"  [{done_count}/{total_candidates}] Error checking {item.get('title')}: {e}")
