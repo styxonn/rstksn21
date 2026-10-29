@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T16:30:24.399107Z",
-  "total_items": 89,
+  "generated_at": "2026-10-29T16:36:21.185425Z",
+  "total_items": 92,
   "categories": {
     "movies_trending": "Filmy - Trendy týdne",
     "movies_popular": "Filmy - Populární",
@@ -34,7 +34,8 @@
       "categories": [
         "movies_animation"
       ],
-      "quality": "4K"
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1311031,
@@ -54,7 +55,8 @@
       "categories": [
         "movies_animation"
       ],
-      "quality": "4K"
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 37854,
@@ -74,7 +76,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 213562,
@@ -93,7 +96,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "1080p"
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 213375,
@@ -112,7 +116,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 247718,
@@ -131,7 +136,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "4K CZ"
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 969681,
@@ -155,7 +161,8 @@
         "movies_action",
         "movies_scifi"
       ],
-      "quality": "4K CZ"
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 105248,
@@ -176,7 +183,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 157336,
@@ -196,7 +204,8 @@
       "categories": [
         "movies_scifi"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 129,
@@ -216,7 +225,8 @@
       "categories": [
         "movies_animation"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 2004,
@@ -234,7 +244,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "HD"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 27205,
@@ -254,7 +265,8 @@
       "categories": [
         "movies_scifi"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 30984,
@@ -274,7 +286,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "1080p"
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1668,
@@ -292,7 +305,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1377237,
@@ -312,7 +326,8 @@
         "movies_action",
         "movies_comedy"
       ],
-      "quality": "1080p"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1084244,
@@ -334,7 +349,29 @@
         "movies_comedy",
         "movies_animation"
       ],
-      "quality": "SD CZ"
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 288673,
+      "media_type": "tv",
+      "title": "Carrie",
+      "original_title": "Carrie",
+      "year": 2026,
+      "overview": "Po náhlé a nečekané smrti otce, která ji vrhne do nemilosrdného světa státní střední školy, se Carrie musí vyrovnávat s virálním skandálem kolem šikany pronikajícím její komunitou, neúprosným tlakem a každodenní krutostí světa sociálních médií. Zároveň si zvyká na probuzení záhadných telekinetických schopností, které rostou spolu s ní.",
+      "vote_average": 8.3,
+      "poster_path": "/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+      "backdrop_path": "/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
+      "genres": [
+        "Mysteriózní",
+        "Drama",
+        "Sci-Fi a Fantasy"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1184918,
@@ -355,7 +392,8 @@
       "categories": [
         "movies_animation"
       ],
-      "quality": "CZ"
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 153312,
@@ -375,7 +413,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "HD"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 64414,
@@ -397,7 +436,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "HD"
+      "quality": "HD",
+      "has_cz_dubbing": false
     },
     {
       "id": 1622,
@@ -417,7 +457,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 2190,
@@ -436,7 +477,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1339713,
@@ -457,7 +499,8 @@
         "movies_thriller",
         "movies_horror"
       ],
-      "quality": "CZ"
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1226863,
@@ -480,7 +523,30 @@
         "movies_comedy",
         "movies_animation"
       ],
-      "quality": "4K CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 299536,
+      "media_type": "movie",
+      "title": "Avengers: Infinity War",
+      "original_title": "Avengers: Infinity War",
+      "year": 2018,
+      "overview": "Snímek Avengers: Infinity War završuje neuvěřitelnou desetiletou cestu filmovým světem studia Marvel a přináší na stříbrná plátna nejsmrtonosnější a nejultimátnější válku všech dob. Avengers a jejich superhrdinští spojenci musí riskovat úplně vše a pokusit se porazit mocného Thanose dřív, než jeho bleskový útok, provázený ničením a zkázou, zničí vesmír jednou provždy.",
+      "vote_average": 8.2,
+      "poster_path": "/8W2UzeV7pOamtuj8MV5lU2gArpm.jpg",
+      "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+      "genres": [
+        "Dobrodružný",
+        "Akční",
+        "Sci-Fi"
+      ],
+      "categories": [
+        "movies_action",
+        "movies_scifi"
+      ],
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 354912,
@@ -502,7 +568,8 @@
         "movies_online",
         "movies_animation"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 65494,
@@ -520,7 +587,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1422041,
@@ -539,7 +607,8 @@
       "categories": [
         "movies_trending"
       ],
-      "quality": "1080p"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1327819,
@@ -561,7 +630,8 @@
       "categories": [
         "movies_animation"
       ],
-      "quality": "CZ"
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 693134,
@@ -580,7 +650,8 @@
       "categories": [
         "movies_scifi"
       ],
-      "quality": "1080p CZ"
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 95480,
@@ -600,7 +671,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 67744,
@@ -619,7 +691,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "CZ"
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1413,
@@ -639,7 +712,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1411,
@@ -659,7 +733,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "720p"
+      "quality": "720p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1596275,
@@ -681,7 +756,8 @@
         "movies_online",
         "movies_thriller"
       ],
-      "quality": "4K CZ"
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1195803,
@@ -702,7 +778,8 @@
         "movies_trending",
         "movies_comedy"
       ],
-      "quality": "1080p"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1368337,
@@ -723,7 +800,8 @@
         "movies_popular",
         "movies_action"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 120911,
@@ -742,7 +820,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 83631,
@@ -761,7 +840,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 456,
@@ -780,7 +860,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "1080p"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 14836,
@@ -802,7 +883,8 @@
         "movies_animation",
         "movies_horror"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1291595,
@@ -824,7 +906,8 @@
         "movies_thriller",
         "movies_horror"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 1148365,
@@ -847,7 +930,8 @@
         "movies_action",
         "movies_comedy"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 96677,
@@ -867,7 +951,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "1080p"
+      "quality": "720p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1288445,
@@ -887,7 +972,8 @@
         "movies_action",
         "movies_thriller"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 1315772,
@@ -910,7 +996,8 @@
         "movies_comedy",
         "movies_animation"
       ],
-      "quality": "4K CZ"
+      "quality": "720p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 83533,
@@ -930,7 +1017,8 @@
       "categories": [
         "movies_scifi"
       ],
-      "quality": "4K CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 502356,
@@ -952,7 +1040,8 @@
       "categories": [
         "movies_animation"
       ],
-      "quality": "SD CZ"
+      "quality": "SD CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 79593,
@@ -972,7 +1061,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 3933,
@@ -992,7 +1082,8 @@
       "categories": [
         "movies_animation"
       ],
-      "quality": "4K CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1400940,
@@ -1016,7 +1107,8 @@
         "movies_thriller",
         "movies_horror"
       ],
-      "quality": "1080p"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1465063,
@@ -1042,7 +1134,8 @@
         "movies_comedy",
         "movies_animation"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 1108427,
@@ -1064,7 +1157,8 @@
         "movies_trending",
         "movies_comedy"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1248832,
@@ -1083,7 +1177,31 @@
       "categories": [
         "movies_comedy"
       ],
-      "quality": "1080p"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 1204680,
+      "media_type": "movie",
+      "title": "Kojot vrací úder",
+      "original_title": "Coyote vs. Acme",
+      "year": 2026,
+      "overview": "Celé roky padal z útesů, vybuchoval, přejížděly ho kamiony a na vlastní kůži testoval snad každý nebezpečný výrobek, který kdy opustil továrnu ACME. A zatímco Kojot Vilda sbíral jednu životní ránu za druhou, jeho staří známí z Looney Tunes si užívali slávu a dostávali hlavní role – nejen Kačer Daffy, ale i kanárek Tweety, nemluvě o Bugs Bunnym, který si vysloužil dokonce hvězdu na Hollywoodském chodníku slávy. A on? Pořád někde padá do rokle. Jenže s tím je konec! Po letech marného pronásledování Ptáka Uličníka a jeho nesnesitelného „mig, mig“ se Kojot Vilda rozhodne vzít spravedlnost do svých rukou a vrátit úder. S pomocí právníka, který má k úspěchu asi stejně daleko jako on k chycení Ptáka Uličníka, vyráží do boje proti ACME!",
+      "vote_average": 7.5,
+      "poster_path": "/fFjf76Ngjf8BXCDsGPhIqpZUAkY.jpg",
+      "backdrop_path": "/7GOW6jod9lLurW5utokAatxg7ql.jpg",
+      "genres": [
+        "Komedie",
+        "Dobrodružný",
+        "Rodinný",
+        "Animovaný"
+      ],
+      "categories": [
+        "movies_comedy",
+        "movies_animation"
+      ],
+      "quality": "HD",
+      "has_cz_dubbing": false
     },
     {
       "id": 1233413,
@@ -1104,7 +1222,8 @@
         "movies_action",
         "movies_horror"
       ],
-      "quality": "CZ"
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 36,
@@ -1125,7 +1244,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "CZ"
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1503762,
@@ -1144,7 +1264,8 @@
       "categories": [
         "movies_trending"
       ],
-      "quality": "1080p"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1275779,
@@ -1164,7 +1285,8 @@
         "movies_scifi",
         "movies_thriller"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1423191,
@@ -1187,26 +1309,8 @@
         "movies_scifi",
         "movies_horror"
       ],
-      "quality": "720p"
-    },
-    {
-      "id": 1263337,
-      "media_type": "movie",
-      "title": "V srdci divočiny",
-      "original_title": "Heart of the Beast",
-      "year": 2026,
-      "overview": "James Belmont, penzionovaný vojenský expert, se se svým psem Odinem, taktéž válečným veteránem, vydává na výlet do aljašské divočiny. Jejich výprava se povážlivě zkomplikuje, když James vinou zdravotní indispozice nezvládne pilotování malého letadla a havaruje. Ti dva už v minulosti ve válečné zóně dokázali, že se jeden na druhého můžou stoprocentně spolehnout. Zvládnou ale spolu zdolat nástrahy aljašské divočiny, kde číhá smrtelné nebezpečí na každém kroku? A poté, co oba letecká havárie nepěkně pocuchala? A protože jedinou nadějí na přežití je pro oba návrat do civilizace, musí se vydat na cestu, která se promění v boj s přírodou v její nejdrsnější podobě. Když ale máte po boku dobrého parťáka, lze zvládnout cokoliv.",
-      "vote_average": 7.3,
-      "poster_path": "/vIQY7fG0AzSCUhO8BIOusCdhjAz.jpg",
-      "backdrop_path": "/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
-      "genres": [
-        "Dobrodružný",
-        "Thriller"
-      ],
-      "categories": [
-        "movies_thriller"
-      ],
-      "quality": "1080p"
+      "quality": "720p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1302904,
@@ -1227,7 +1331,8 @@
         "movies_online",
         "movies_comedy"
       ],
-      "quality": "CZ"
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 446893,
@@ -1251,7 +1356,8 @@
         "movies_comedy",
         "movies_animation"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1514026,
@@ -1274,7 +1380,8 @@
         "movies_comedy",
         "movies_horror"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 1101383,
@@ -1294,29 +1401,8 @@
       "categories": [
         "movies_scifi"
       ],
-      "quality": "1080p CZ"
-    },
-    {
-      "id": 1561726,
-      "media_type": "movie",
-      "title": "Mistrovský plán",
-      "original_title": "Masterplan",
-      "year": 2026,
-      "overview": "Když se legendární zloděj zaměří na Monu Lisu, požádá o pomoc dva mladé cizince - italskou hackerku Chiaru a francouzského specialistu na výbušniny Jaye, a ještě předtím jim odhalí, že je jejich otcem. V nastalém chaosu se nová rodina musí naučit spolupracovat a vzájemně se nezabít, pokud chtějí úspěšně provést loupež století.",
-      "vote_average": 7.0,
-      "poster_path": "/2nItMjKr4I4lD1LEy4LoX3aSEJ1.jpg",
-      "backdrop_path": "/fAlQZsCOCvxOj0PmFmt4i8IWR2u.jpg",
-      "genres": [
-        "Akční",
-        "Thriller"
-      ],
-      "categories": [
-        "movies_popular",
-        "movies_online",
-        "movies_action",
-        "movies_thriller"
-      ],
-      "quality": "4K"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1657630,
@@ -1341,7 +1427,31 @@
         "movies_thriller",
         "movies_horror"
       ],
-      "quality": "1080p"
+      "quality": "1080p",
+      "has_cz_dubbing": false
+    },
+    {
+      "id": 1561726,
+      "media_type": "movie",
+      "title": "Mistrovský plán",
+      "original_title": "Masterplan",
+      "year": 2026,
+      "overview": "Když se legendární zloděj zaměří na Monu Lisu, požádá o pomoc dva mladé cizince - italskou hackerku Chiaru a francouzského specialistu na výbušniny Jaye, a ještě předtím jim odhalí, že je jejich otcem. V nastalém chaosu se nová rodina musí naučit spolupracovat a vzájemně se nezabít, pokud chtějí úspěšně provést loupež století.",
+      "vote_average": 7.0,
+      "poster_path": "/2nItMjKr4I4lD1LEy4LoX3aSEJ1.jpg",
+      "backdrop_path": "/fAlQZsCOCvxOj0PmFmt4i8IWR2u.jpg",
+      "genres": [
+        "Akční",
+        "Thriller"
+      ],
+      "categories": [
+        "movies_popular",
+        "movies_online",
+        "movies_action",
+        "movies_thriller"
+      ],
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1294189,
@@ -1362,7 +1472,8 @@
         "movies_action",
         "movies_thriller"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1236045,
@@ -1385,7 +1496,8 @@
         "movies_action",
         "movies_thriller"
       ],
-      "quality": "4K CZ"
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1384216,
@@ -1410,7 +1522,8 @@
         "movies_scifi",
         "movies_thriller"
       ],
-      "quality": "CZ"
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1780005,
@@ -1429,7 +1542,8 @@
         "movies_trending",
         "movies_online"
       ],
-      "quality": "CZ"
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 314360,
@@ -1448,7 +1562,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 1290418,
@@ -1471,7 +1586,8 @@
         "movies_thriller",
         "movies_horror"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1058424,
@@ -1495,7 +1611,8 @@
         "movies_action",
         "movies_scifi"
       ],
-      "quality": "1080p"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1232569,
@@ -1517,7 +1634,8 @@
         "movies_online",
         "movies_horror"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1153576,
@@ -1537,7 +1655,31 @@
         "movies_popular",
         "movies_action"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
+    },
+    {
+      "id": 1283515,
+      "media_type": "movie",
+      "title": "Pravda, nebo lež",
+      "original_title": "Verity",
+      "year": 2026,
+      "overview": "Začínající autorka Lowen Ashleigh dostane nabídku dokončit knihy úspěšné spisovatelky Verity Crawford jako anonymní autorka, a proto se dočasně přestěhuje na odlehlé rodinné sídlo Crawfordových. Během pobytu ale narazí na rukopis, který vypadá jako Verityiny tajné autobiografické zápisky – a ty jsou dost děsivé. Obsahují temná přiznání týkající se jejího manžela Jeremyho. Lowen postupně přestává vědět, co je skutečnost a co jen dobře promyšlená hra – a zároveň ji to všechno začne nebezpečně přitahovat.",
+      "vote_average": 6.3,
+      "poster_path": "/ixi6GteSWRTg4sR7EsOUWHl20YP.jpg",
+      "backdrop_path": "/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg",
+      "genres": [
+        "Mysteriózní",
+        "Thriller"
+      ],
+      "categories": [
+        "movies_trending",
+        "movies_popular",
+        "movies_online",
+        "movies_thriller"
+      ],
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1228834,
@@ -1559,7 +1701,8 @@
         "movies_action",
         "movies_thriller"
       ],
-      "quality": "4K"
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 4386,
@@ -1579,7 +1722,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "HD"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1727734,
@@ -1598,7 +1742,8 @@
         "movies_trending",
         "movies_comedy"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 858035,
@@ -1617,7 +1762,8 @@
       "categories": [
         "movies_scifi"
       ],
-      "quality": "1080p"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1400837,
@@ -1635,7 +1781,8 @@
       "categories": [
         "movies_horror"
       ],
-      "quality": "1080p"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1476746,
@@ -1654,7 +1801,8 @@
       "categories": [
         "movies_action"
       ],
-      "quality": "4K"
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1130948,
@@ -1674,7 +1822,8 @@
       "categories": [
         "movies_comedy"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 1284046,
@@ -1696,7 +1845,8 @@
         "movies_thriller",
         "movies_horror"
       ],
-      "quality": "4K"
+      "quality": "720p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1712451,
@@ -1715,7 +1865,8 @@
         "movies_online",
         "movies_horror"
       ],
-      "quality": "1080p"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1375161,
@@ -1734,7 +1885,8 @@
       "categories": [
         "movies_horror"
       ],
-      "quality": "CZ"
+      "quality": "HD",
+      "has_cz_dubbing": false
     },
     {
       "id": 1480613,
@@ -1753,7 +1905,8 @@
       "categories": [
         "movies_horror"
       ],
-      "quality": "1080p"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 313699,
@@ -1772,7 +1925,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "720p"
+      "quality": "720p",
+      "has_cz_dubbing": false
     },
     {
       "id": 755898,
@@ -1792,7 +1946,8 @@
         "movies_scifi",
         "movies_thriller"
       ],
-      "quality": "1080p CZ"
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 1003596,
@@ -1814,7 +1969,8 @@
         "movies_action",
         "movies_scifi"
       ],
-      "quality": "HD"
+      "quality": "HD",
+      "has_cz_dubbing": false
     },
     {
       "id": 1170608,
@@ -1833,7 +1989,8 @@
       "categories": [
         "movies_trending"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 1300968,
@@ -1853,7 +2010,8 @@
       "categories": [
         "movies_trending"
       ],
-      "quality": "4K"
+      "quality": "4K",
+      "has_cz_dubbing": false
     }
   ]
 }
