@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T14:26:43.544691Z",
-  "total_items": 87,
+  "generated_at": "2026-10-29T16:30:24.399107Z",
+  "total_items": 89,
   "categories": {
     "movies_trending": "Filmy - Trendy týdne",
     "movies_popular": "Filmy - Populární",
@@ -77,25 +77,6 @@
       "quality": "1080p CZ"
     },
     {
-      "id": 213375,
-      "media_type": "tv",
-      "title": "VisionQuest",
-      "original_title": "VisionQuest",
-      "year": 2026,
-      "overview": "S odměnou vypsanou na jeho hlavu musí Vision čelit své podstatě a odolat Ultronovu vlivu, aby přežil.",
-      "vote_average": 8.7,
-      "poster_path": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
-      "backdrop_path": "/58v1KFe3rxvHrYM1hLH5ScpwqNR.jpg",
-      "genres": [
-        "Sci-Fi a Fantasy",
-        "Drama"
-      ],
-      "categories": [
-        "tv_trending"
-      ],
-      "quality": "4K"
-    },
-    {
       "id": 213562,
       "media_type": "tv",
       "title": "Crystal Lake",
@@ -113,6 +94,25 @@
         "tv_trending"
       ],
       "quality": "1080p"
+    },
+    {
+      "id": 213375,
+      "media_type": "tv",
+      "title": "VisionQuest",
+      "original_title": "VisionQuest",
+      "year": 2026,
+      "overview": "S odměnou vypsanou na jeho hlavu musí Vision čelit své podstatě a odolat Ultronovu vlivu, aby přežil.",
+      "vote_average": 8.6,
+      "poster_path": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+      "backdrop_path": "/58v1KFe3rxvHrYM1hLH5ScpwqNR.jpg",
+      "genres": [
+        "Sci-Fi a Fantasy",
+        "Drama"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "4K"
     },
     {
       "id": 247718,
@@ -309,7 +309,6 @@
         "Komedie"
       ],
       "categories": [
-        "movies_trending",
         "movies_action",
         "movies_comedy"
       ],
@@ -560,7 +559,6 @@
         "Sci-Fi"
       ],
       "categories": [
-        "movies_comedy",
         "movies_animation"
       ],
       "quality": "CZ"
@@ -1039,6 +1037,7 @@
       ],
       "categories": [
         "movies_trending",
+        "movies_popular",
         "movies_online",
         "movies_comedy",
         "movies_animation"
@@ -1191,6 +1190,25 @@
       "quality": "720p"
     },
     {
+      "id": 1263337,
+      "media_type": "movie",
+      "title": "V srdci divočiny",
+      "original_title": "Heart of the Beast",
+      "year": 2026,
+      "overview": "James Belmont, penzionovaný vojenský expert, se se svým psem Odinem, taktéž válečným veteránem, vydává na výlet do aljašské divočiny. Jejich výprava se povážlivě zkomplikuje, když James vinou zdravotní indispozice nezvládne pilotování malého letadla a havaruje. Ti dva už v minulosti ve válečné zóně dokázali, že se jeden na druhého můžou stoprocentně spolehnout. Zvládnou ale spolu zdolat nástrahy aljašské divočiny, kde číhá smrtelné nebezpečí na každém kroku? A poté, co oba letecká havárie nepěkně pocuchala? A protože jedinou nadějí na přežití je pro oba návrat do civilizace, musí se vydat na cestu, která se promění v boj s přírodou v její nejdrsnější podobě. Když ale máte po boku dobrého parťáka, lze zvládnout cokoliv.",
+      "vote_average": 7.3,
+      "poster_path": "/vIQY7fG0AzSCUhO8BIOusCdhjAz.jpg",
+      "backdrop_path": "/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
+      "genres": [
+        "Dobrodružný",
+        "Thriller"
+      ],
+      "categories": [
+        "movies_thriller"
+      ],
+      "quality": "1080p"
+    },
+    {
       "id": 1302904,
       "media_type": "movie",
       "title": "Magická posedlost 2",
@@ -1236,6 +1254,29 @@
       "quality": "1080p CZ"
     },
     {
+      "id": 1514026,
+      "media_type": "movie",
+      "title": "Buddy",
+      "original_title": "Buddy",
+      "year": 2026,
+      "overview": "Kouzelný, zpívající oranžový jednorožec drží herce jako rukojmí v surrealistické dimenzi televizní show, zatímco se stává čím dál tím šílenějším.",
+      "vote_average": 7.1,
+      "poster_path": "/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
+      "backdrop_path": "/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg",
+      "genres": [
+        "Horor",
+        "Komedie",
+        "Fantasy"
+      ],
+      "categories": [
+        "movies_popular",
+        "movies_online",
+        "movies_comedy",
+        "movies_horror"
+      ],
+      "quality": "4K"
+    },
+    {
       "id": 1101383,
       "media_type": "movie",
       "title": "Konec Oak Street",
@@ -1251,33 +1292,9 @@
         "Thriller"
       ],
       "categories": [
-        "movies_scifi",
-        "movies_thriller"
+        "movies_scifi"
       ],
       "quality": "1080p CZ"
-    },
-    {
-      "id": 1514026,
-      "media_type": "movie",
-      "title": "Buddy",
-      "original_title": "Buddy",
-      "year": 2026,
-      "overview": "Kouzelný, zpívající oranžový jednorožec drží herce jako rukojmí v surrealistické dimenzi televizní show, zatímco se stává čím dál tím šílenějším.",
-      "vote_average": 7.0,
-      "poster_path": "/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
-      "backdrop_path": "/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg",
-      "genres": [
-        "Horor",
-        "Komedie",
-        "Fantasy"
-      ],
-      "categories": [
-        "movies_popular",
-        "movies_online",
-        "movies_comedy",
-        "movies_horror"
-      ],
-      "quality": "4K"
     },
     {
       "id": 1561726,
@@ -1383,8 +1400,7 @@
       "genres": [
         "Akční",
         "Thriller",
-        "Sci-Fi",
-        "Rodinný"
+        "Sci-Fi"
       ],
       "categories": [
         "movies_trending",
@@ -1452,9 +1468,10 @@
       ],
       "categories": [
         "movies_trending",
+        "movies_thriller",
         "movies_horror"
       ],
-      "quality": "1080p"
+      "quality": "1080p CZ"
     },
     {
       "id": 1058424,
@@ -1477,24 +1494,6 @@
         "movies_online",
         "movies_action",
         "movies_scifi"
-      ],
-      "quality": "1080p"
-    },
-    {
-      "id": 1255833,
-      "media_type": "movie",
-      "title": "Velrybí pád",
-      "original_title": "Whalefall",
-      "year": 2026,
-      "overview": "Po smrti svého otce (Josh Brolin) se Jay Gardiner (Austin Abrams) vydává potápět u pobřeží střední Kalifornie, aby našel jeho ostatky. Místo toho jej však spolkne obrovský vorvaň. Uvězněný v jeho břiše, s kyslíkem sotva na hodinu, Jay postupně zjišťuje, že právě zkušenosti a lekce, které mu otec předal, mohou být klíčem k jeho záchraně.",
-      "vote_average": 6.6,
-      "poster_path": "/uSjnb0s4oNZFhO8PiYLxs2Qqw48.jpg",
-      "backdrop_path": "/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
-      "genres": [
-        "Thriller"
-      ],
-      "categories": [
-        "movies_thriller"
       ],
       "quality": "1080p"
     },
@@ -1527,7 +1526,7 @@
       "original_title": "Street Fighter",
       "year": 2026,
       "overview": "Bývalá legenda bojových umění Ken Mastersprávě na vlastní kůži poznává, že světská sláva je fakt jen polní sláva, protože po letech vítězství, obdivu, bohatství, chlastu a holek, mu zbyl už jen ten chlast. Když mu tedy lehce záhadná Chun-Li nabídne, aby se zúčastnil připravovaného celosvětového turnaje těch největších ranařů, zatáhne rostoucí panděro a bez ohledu na možné důsledky s účastí souhlasí. Absence formy nebude jediným problémem, se kterým se bude Ken potýkat. Turnaje se totiž zúčastní i Ryu, jeho bývalý pokrevní bratr, se kterým se kdysi rozhádal. A to pořád není ta hlavní špatná zpráva. Organizátorovi turnaje nejde o ty nejkvalitnější sportovní výkony a korunovaci nejlepšího bojovníka, ale chce realizovat děsivě ďábelský plán, jenž mu při souhře okolností pomůže ovládnout celý svět. Před Kenem tak leží pořádná výzva a jestli v ní neuspěje, bude to pro všechny znamenat GAME OVER.",
-      "vote_average": 6.3,
+      "vote_average": 6.4,
       "poster_path": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
       "backdrop_path": "/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg",
       "genres": [
@@ -1653,8 +1652,7 @@
         "Thriller"
       ],
       "categories": [
-        "movies_action",
-        "movies_thriller"
+        "movies_action"
       ],
       "quality": "4K"
     },
@@ -1714,7 +1712,6 @@
         "Horor"
       ],
       "categories": [
-        "movies_popular",
         "movies_online",
         "movies_horror"
       ],
@@ -1757,6 +1754,25 @@
         "movies_horror"
       ],
       "quality": "1080p"
+    },
+    {
+      "id": 313699,
+      "media_type": "tv",
+      "title": "Balaraw",
+      "original_title": "Balaraw",
+      "year": 2026,
+      "overview": "",
+      "vote_average": 5.0,
+      "poster_path": "/s1A6UOu8IOmw0kJXohlitMRiwQb.jpg",
+      "backdrop_path": "/dLFyQRJqL2zyP5wmRztUKVQV6Hw.jpg",
+      "genres": [
+        "Mysteriózní",
+        "Drama"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "720p"
     },
     {
       "id": 755898,
@@ -1812,6 +1828,26 @@
       "backdrop_path": "/i5E9H7Ik0u61ylDDTbmUpTL3Yw.jpg",
       "genres": [
         "Sci-Fi",
+        "Dobrodružný"
+      ],
+      "categories": [
+        "movies_trending"
+      ],
+      "quality": "4K"
+    },
+    {
+      "id": 1300968,
+      "media_type": "movie",
+      "title": "Hunger Games: Úsvit sklizně",
+      "original_title": "The Hunger Games: Sunrise on the Reaping",
+      "year": 2026,
+      "overview": "Začíná Den sklizně padesátého ročníku Hladových her a všechny kraje Panemu svírá strach. Letos, bude do Kapitolu z každého kraje odveden dvojnásobný počet splátců. Haymitch Abernathy z Dvanáctého kraje touží po jediném – přežít den a vrátit se k milované dívce. Když ale mezi čtyřmi vybranými zazní jeho jméno, jeho sny se v jediném okamžiku rozplynou. Hry začínají – a Haymitch brzy pochopí, že nemá šanci vyhrát. Přesto se nehodlá vzdát. Dokáže svůj boj přenést až za hranice smrtící arény?",
+      "vote_average": 0.0,
+      "poster_path": "/roJBhqBnqe6iVW2VUAKau7BdkTP.jpg",
+      "backdrop_path": "/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+      "genres": [
+        "Sci-Fi",
+        "Akční",
         "Dobrodružný"
       ],
       "categories": [
