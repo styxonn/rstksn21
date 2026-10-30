@@ -89,8 +89,8 @@
       "tv_time": "20:15",
       "tv_time_full": "20:15 - 23:50",
       "tv_day": "dnes",
-      "quality": "HD",
-      "has_cz_dubbing": false,
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true,
       "categories": [
         "movies_tv_tips"
       ]
@@ -323,8 +323,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1765072,
@@ -1168,8 +1168,8 @@
         "movies_action",
         "movies_comedy"
       ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
+      "quality": "SD CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1419406,
@@ -1908,8 +1908,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "720p",
-      "has_cz_dubbing": false
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 10681,
@@ -2023,8 +2023,8 @@
         "movies_popular",
         "movies_action"
       ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
+      "quality": "SD CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1371730,
@@ -2172,8 +2172,8 @@
       "categories": [
         "movies_comedy"
       ],
-      "quality": "HD",
-      "has_cz_dubbing": false
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 14160,
@@ -2676,8 +2676,8 @@
         "movies_thriller",
         "movies_horror"
       ],
-      "quality": "4K",
-      "has_cz_dubbing": false
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 256711,
@@ -2832,8 +2832,8 @@
       "categories": [
         "movies_scifi"
       ],
-      "quality": "4K",
-      "has_cz_dubbing": false
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 9806,
@@ -2900,8 +2900,8 @@
         "movies_action",
         "movies_thriller"
       ],
-      "quality": "4K",
-      "has_cz_dubbing": false
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1315772,
@@ -3278,8 +3278,8 @@
         "movies_comedy",
         "movies_animation"
       ],
-      "quality": "4K",
-      "has_cz_dubbing": false
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1108427,
@@ -3388,8 +3388,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 250203,
@@ -3407,8 +3407,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1233413,
@@ -4178,8 +4178,8 @@
         "movies_comedy",
         "movies_horror"
       ],
-      "quality": "4K",
-      "has_cz_dubbing": false
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1101383,
@@ -4589,8 +4589,8 @@
       "categories": [
         "tv_trending"
       ],
-      "quality": "4K",
-      "has_cz_dubbing": false
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 346698,
@@ -5341,8 +5341,8 @@
       "categories": [
         "tv_popular"
       ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1400837,
@@ -5521,8 +5521,8 @@
       "categories": [
         "movies_horror"
       ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1480613,
@@ -5672,8 +5672,8 @@
         "movies_scifi",
         "movies_thriller"
       ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1003596,
