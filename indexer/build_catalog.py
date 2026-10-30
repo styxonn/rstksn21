@@ -265,7 +265,7 @@ def check_webshare(query: str, is_tv: bool, title_variants: list, year: int) -> 
         "what": query,
         "category": "video",
         "sort": "rating",
-        "limit": 25,
+        "limit": 45,
         "offset": 0
     }
     headers = {"User-Agent": DEFAULT_USER_AGENT}
@@ -363,12 +363,16 @@ def check_prehrajto(query: str, is_tv: bool, title_variants: list, year: int) ->
     return valid_files
 
 
-def verify_availability(item: dict) -> tuple:
+def verify_availability(item: dict, known_cz_ids: set = None) -> tuple:
     """Verify if at least one valid video file exists on Webshare or Přehraj.to."""
     is_tv = item["media_type"] == "tv"
     title_cz = item.get("title", "")
     title_orig = item.get("original_title", "")
     year = item.get("year", 0)
+    tmdb_id = str(item.get("id") or "")
+
+    # Preserve CZ dubbing if previously confirmed (Dabing se nezapomíná)
+    already_known_cz = bool(item.get("has_cz_dubbing") or (known_cz_ids and tmdb_id in known_cz_ids))
 
     title_variants = [t for t in [title_cz, title_orig] if t]
 
@@ -391,13 +395,37 @@ def verify_availability(item: dict) -> tuple:
         pt_files = check_prehrajto(q, is_tv, title_variants, year)
         found_files.extend(pt_files)
         # If we already found files AND at least one has confirmed CZ dubbing, we can stop early
-        if found_files and any(has_cz_audio(f["name"]) for f in found_files):
+        if found_files and (already_known_cz or any(has_cz_audio(f["name"]) for f in found_files)):
             break
+
+    # If stream exists but NO CZ audio was found yet (and not already known), try targeted CZ query
+    if found_files and not already_known_cz and not any(has_cz_audio(f["name"]) for f in found_files):
+        cz_queries = []
+        if not is_tv:
+            if title_cz:
+                cz_queries.append(f"{title_cz} CZ")
+            if title_orig and title_orig != title_cz:
+                cz_queries.append(f"{title_orig} CZ")
+        else:
+            if title_cz:
+                cz_queries.append(f"{title_cz} S01 CZ")
+            if title_orig and title_orig != title_cz:
+                cz_queries.append(f"{title_orig} S01 CZ")
+
+        for q in cz_queries:
+            ws_cz = check_webshare(q, is_tv, title_variants, year)
+            found_files.extend(ws_cz)
+            if any(has_cz_audio(f["name"]) for f in ws_cz):
+                break
+            pt_cz = check_prehrajto(q, is_tv, title_variants, year)
+            found_files.extend(pt_cz)
+            if any(has_cz_audio(f["name"]) for f in pt_cz):
+                break
 
     if not found_files:
         return False, None, False
 
-    has_cz_dub = any(has_cz_audio(f["name"]) for f in found_files)
+    has_cz_dub = already_known_cz or any(has_cz_audio(f["name"]) for f in found_files)
 
     # Detect best quality
     qualities = [detect_quality(f["name"]) for f in found_files]
@@ -629,10 +657,23 @@ def main():
         sys.exit(1)
 
     tmdb = TmdbFetcher(TMDB_API_KEY)
-    today = datetime.date.today().isoformat()
+    today_dt = datetime.date.today()
+    today = today_dt.isoformat()
+    six_months_ago = (today_dt - datetime.timedelta(days=180)).isoformat()
 
     category_definitions = [
         # Movies
+        {
+            "key": "movies_new",
+            "name": "🎬 Filmy - Novinky",
+            "endpoint": "/discover/movie",
+            "params": {
+                "primary_release_date.gte": six_months_ago,
+                "primary_release_date.lte": today,
+                "sort_by": "popularity.desc"
+            },
+            "media_type": "movie"
+        },
         {
             "key": "movies_trending",
             "name": "Filmy - Trendy týdne",
@@ -751,12 +792,27 @@ def main():
     print(f"\n[2/3] Total unique candidates to verify: {total_candidates}")
     print("Checking availability on Webshare.cz and Přehraj.to in parallel (max 3 threads)...")
 
+    # Load previously known CZ dubbing IDs so a known CZ dubbing is never lost
+    known_cz_ids = set()
+    catalog_path = "catalog.json"
+    if os.path.exists(catalog_path):
+        try:
+            with open(catalog_path, "r", encoding="utf-8") as f:
+                old_cat = json.load(f)
+                for it in old_cat.get("items", []):
+                    if it.get("has_cz_dubbing"):
+                        known_cz_ids.add(str(it.get("id")))
+        except Exception:
+            pass
+    if known_cz_ids:
+        print(f"  [INFO] Preserving {len(known_cz_ids)} previously verified CZ dubbing titles.")
+
     verified_items = []
     items_list = list(all_raw_items.values())
 
     start_time = time.time()
     with ThreadPoolExecutor(max_workers=5) as executor:
-        future_to_item = {executor.submit(verify_availability, item): item for item in items_list}
+        future_to_item = {executor.submit(verify_availability, item, known_cz_ids): item for item in items_list}
         done_count = 0
         for future in as_completed(future_to_item):
             item = future_to_item[future]
