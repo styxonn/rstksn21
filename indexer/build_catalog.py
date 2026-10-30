@@ -8,6 +8,7 @@ Webshare.cz and Přehraj.to, and generates an optimized catalog.json.
 
 import os
 import sys
+import subprocess
 import re
 import json
 import time
@@ -34,6 +35,11 @@ IGNORED_EXTENSIONS = {".rar", ".zip", ".srt", ".sub", ".txt", ".nfo", ".jpg", ".
 
 # Supported video extensions
 VIDEO_EXTENSIONS = {".mkv", ".mp4", ".avi", ".m4v", ".wmv", ".mov", ".ts", ".iso"}
+
+TV_PATTERN = re.compile(
+    r"\b(s\d{1,2}e\d{1,3}|\d{1,2}x\d{1,3}|s\d{1,2}\b|season\s*\d+|serie\s*\d+|epizod[ay]?\s*\d+|d[ií]l\s*\d+)",
+    re.IGNORECASE
+)
 
 GENRE_MAP = {
     28: "Akční",
@@ -120,9 +126,11 @@ def has_cz_audio(filename: str) -> bool:
     """Detect whether filename has Czech or Slovak audio dubbing."""
     fn_lower = filename.lower()
     has_cz_tit = bool(re.search(r"\b(cztit|sktit|titulky|cz_tit|tit|sub|subs)\b", fn_lower))
+    has_cz_mask = bool(re.search(r"\bcz\s*(\.{2,}|…)", fn_lower))
+    is_cam = bool(re.search(r"\b(cam|camrip|telesync|ts|hdcam|hdts|kinorip)\b", fn_lower))
     has_dabing = bool(re.search(r"\b(czdab|czdabing|dabing|dab|cz_sk|dual|skdab|skdabing)\b", fn_lower))
     has_cz_word = bool(re.search(r"\b(cz|cesky|česky|sk|slovensky|slovenský)\b", fn_lower))
-    if has_cz_tit and not (has_cz_word and has_dabing) and not ("czdab" in fn_lower):
+    if (has_cz_tit or has_cz_mask or (is_cam and not has_dabing)) and not (has_cz_word and has_dabing) and not ("czdab" in fn_lower):
         return False
     return has_cz_word or has_dabing
 
@@ -181,12 +189,23 @@ def is_valid_file(filename: str, size_bytes: int, is_tv: bool, title_variants: l
     if not is_tv and size_bytes > 0 and size_bytes < MIN_MOVIE_SIZE_BYTES:
         return False
 
+    # Anti-trailer check (promotional teasers / trailers / previews)
+    target_has_trailer = any("trailer" in (t or "").lower() for t in title_variants)
+    if not target_has_trailer:
+        fn_clean = " " + re.sub(r"[^\w\s]", " ", fn_lower) + " "
+        if re.search(r"\b(trailer[ys]?|trajler[y]?|teaser[sy]?|ukazka|ukazky|upoutavka|upoutavky)\b", fn_clean):
+            return False
+
     # Normalized filename tokens
     norm_fn = re.sub(r"[._\-]", " ", fn_lower)
 
     # TV show check: must have season 1 indicator (S01, S01E01, 1x01, Season 1, etc.)
     if is_tv:
         if not re.search(r"(s01e\d+|s01\b|1x\d+|season\s*0?1\b|serie\s*0?1\b|1\.\s*s[eé]rie)", norm_fn):
+            return False
+    else:
+        # Movies must NOT match TV series episodes (e.g. S02E33)
+        if TV_PATTERN.search(fn_lower):
             return False
 
     # Check title match
@@ -266,6 +285,16 @@ def check_webshare(query: str, is_tv: bool, title_variants: list, year: int) -> 
                     password = file_node.findtext("password", "0")
                     if password == "1":
                         continue
+                    try:
+                        pos_votes = int(file_node.findtext("positive_votes", "0"))
+                    except ValueError:
+                        pos_votes = 0
+                    try:
+                        neg_votes = int(file_node.findtext("negative_votes", "0"))
+                    except ValueError:
+                        neg_votes = 0
+                    if neg_votes > pos_votes:
+                        continue
                     if is_valid_file(name, size, is_tv, title_variants, year):
                         valid_files.append({"name": name, "size": size, "source": "Webshare"})
     except Exception as ex:
@@ -293,6 +322,26 @@ def check_prehrajto(query: str, is_tv: bool, title_variants: list, year: int) ->
                     a_tag = w.find("a")
                     href = a_tag.get("href", "") if a_tag else ""
                     if not href or "hledej" in href:
+                        continue
+
+                    # Check negative rating / palce dolů (fake trailer loop files)
+                    dis = w.select_one(".video__tag--dislike")
+                    like = w.select_one(".video__tag--like")
+                    likes_div = w.select_one(".video__tag--likes")
+
+                    dislikes = 0
+                    if dis:
+                        m_d = re.search(r"\d+", dis.get_text(strip=True))
+                        if m_d:
+                            dislikes = int(m_d.group(0))
+
+                    likes = 0
+                    if like:
+                        m_l = re.search(r"\d+", like.get_text(strip=True))
+                        if m_l:
+                            likes = int(m_l.group(0))
+
+                    if (dis and not like) or (dislikes > likes) or (likes_div and "-" in likes_div.get_text()):
                         continue
 
                     texts = list(w.stripped_strings)
@@ -396,48 +445,141 @@ class TmdbFetcher:
             print(f"[TMDB] Connection error: {e}")
         return {}
 
-    def fetch_items_for_category(self, endpoint: str, params: dict, media_type: str, category_key: str) -> list:
-        data = self.get(endpoint, params)
-        results = data.get("results", [])
+    def fetch_items_for_category(self, endpoint: str, params: dict, media_type: str, category_key: str, max_pages: int = 3) -> list:
         items = []
-        for r in results:
-            tmdb_id = r.get("id")
-            if not tmdb_id:
-                continue
+        seen_ids = set()
+        base_params = dict(params or {})
 
-            if media_type == "movie":
-                title = r.get("title", "")
-                orig_title = r.get("original_title", "")
-                rel_date = r.get("release_date", "")
-            else:
-                title = r.get("name", "")
-                orig_title = r.get("original_name", "")
-                rel_date = r.get("first_air_date", "")
+        for page in range(1, max_pages + 1):
+            p = dict(base_params)
+            p["page"] = page
+            data = self.get(endpoint, p)
+            results = data.get("results", [])
+            if not results:
+                break
 
-            year = 0
-            if rel_date and len(rel_date) >= 4:
-                try:
-                    year = int(rel_date[:4])
-                except ValueError:
-                    year = 0
+            for r in results:
+                tmdb_id = r.get("id")
+                if not tmdb_id or tmdb_id in seen_ids:
+                    continue
+                seen_ids.add(tmdb_id)
 
-            genre_ids = r.get("genre_ids", [])
-            genres = [GENRE_MAP[g] for g in genre_ids if g in GENRE_MAP]
+                if media_type == "movie":
+                    title = r.get("title", "")
+                    orig_title = r.get("original_title", "")
+                    rel_date = r.get("release_date", "")
+                else:
+                    title = r.get("name", "")
+                    orig_title = r.get("original_name", "")
+                    rel_date = r.get("first_air_date", "")
 
-            items.append({
-                "id": tmdb_id,
-                "media_type": media_type,
-                "title": title,
-                "original_title": orig_title,
-                "year": year,
-                "overview": r.get("overview", ""),
-                "vote_average": round(float(r.get("vote_average", 0.0)), 1),
-                "poster_path": r.get("poster_path", ""),
-                "backdrop_path": r.get("backdrop_path", ""),
-                "genres": genres,
-                "category": category_key
-            })
+                year = 0
+                if rel_date and len(rel_date) >= 4:
+                    try:
+                        year = int(rel_date[:4])
+                    except ValueError:
+                        year = 0
+
+                genre_ids = r.get("genre_ids", [])
+                genres = [GENRE_MAP[g] for g in genre_ids if g in GENRE_MAP]
+
+                items.append({
+                    "id": tmdb_id,
+                    "media_type": media_type,
+                    "title": title,
+                    "original_title": orig_title,
+                    "year": year,
+                    "overview": r.get("overview", ""),
+                    "vote_average": round(float(r.get("vote_average", 0.0)), 1),
+                    "poster_path": r.get("poster_path", ""),
+                    "backdrop_path": r.get("backdrop_path", ""),
+                    "genres": genres,
+                    "category": category_key
+                })
+
+            total_pages = data.get("total_pages", 1)
+            if page >= total_pages:
+                break
+
         return items
+
+
+def fetch_csfd_tv_tips(tmdb: TmdbFetcher) -> list:
+    """Fetch official editorial TV tips of the day from csfd.cz/televize/ via fetch_csfd_tips.js."""
+    js_script = os.path.join(os.path.dirname(__file__), "fetch_csfd_tips.js")
+    if not os.path.exists(js_script):
+        print(f"[CSFD] Script not found: {js_script}")
+        return []
+
+    try:
+        proc = subprocess.run(["node", js_script], capture_output=True, text=True, encoding="utf-8", timeout=30)
+        if proc.returncode != 0:
+            print(f"[CSFD] Error running {js_script}: {proc.stderr}")
+            return []
+        raw_tips = json.loads(proc.stdout)
+    except Exception as e:
+        print(f"[CSFD] Exception executing fetch_csfd_tips.js: {e}")
+        return []
+
+    print(f"  [CSFD] Extracted {len(raw_tips)} editorial TV tips from csfd.cz/televize/.")
+    tv_items = []
+
+    for tip in raw_tips:
+        title = tip.get("title", "").strip()
+        year = tip.get("year", 0)
+        if not title:
+            continue
+
+        search_params = {"query": title}
+        if year and year > 1900:
+            search_params["year"] = year
+
+        r = tmdb.get("/search/movie", search_params)
+        results = r.get("results", [])
+        if not results and "year" in search_params:
+            search_params.pop("year", None)
+            r = tmdb.get("/search/movie", search_params)
+            results = r.get("results", [])
+
+        if not results:
+            print(f"  [CSFD] '{title}' ({year}) not found on TMDB, skipping.")
+            continue
+
+        best = results[0]
+        tmdb_id = best.get("id")
+        rel_date = best.get("release_date", "")
+        m_year = year
+        if not m_year and rel_date and len(rel_date) >= 4:
+            try:
+                m_year = int(rel_date[:4])
+            except ValueError:
+                m_year = 0
+
+        genre_ids = best.get("genre_ids", [])
+        genres = [GENRE_MAP[g] for g in genre_ids if g in GENRE_MAP]
+
+        time_range = tip.get("time", "")
+        start_time = time_range.split("-")[0].strip() if "-" in time_range else time_range
+
+        tv_items.append({
+            "id": tmdb_id,
+            "media_type": "movie",
+            "title": best.get("title", title),
+            "original_title": best.get("original_title", ""),
+            "year": m_year,
+            "overview": best.get("overview") or tip.get("plot", ""),
+            "vote_average": round(float(best.get("vote_average", 0.0)), 1),
+            "poster_path": best.get("poster_path", ""),
+            "backdrop_path": best.get("backdrop_path", ""),
+            "genres": genres,
+            "category": "movies_tv_tips",
+            "tv_station": tip.get("station", ""),
+            "tv_time": start_time,
+            "tv_time_full": time_range,
+            "tv_day": tip.get("day", "dnes")
+        })
+
+    return tv_items
 
 
 def main():
@@ -502,7 +644,7 @@ def main():
             "key": "movies_popular",
             "name": "Filmy - Populární",
             "endpoint": "/movie/popular",
-            "params": {"page": 1},
+            "params": {},
             "media_type": "movie"
         },
         {
@@ -570,21 +712,32 @@ def main():
             "key": "tv_popular",
             "name": "Seriály - Populární",
             "endpoint": "/tv/popular",
-            "params": {"page": 1},
+            "params": {},
             "media_type": "tv"
         }
     ]
 
     all_raw_items = {}
-    categories_dict = {}
+    categories_dict = {
+        "movies_tv_tips": "TV tipy pro dnešní den"
+    }
 
-    print("[1/3] Fetching titles from TMDB...")
+    print("[1/3] Fetching titles from TMDB (3 pages / 60 titles per category) & ČSFD TV tips...")
+
+    # Fetch official editorial TV tips from CSFD first
+    print("  -> Fetching ČSFD TV tips of the day...")
+    csfd_tips = fetch_csfd_tv_tips(tmdb)
+    for it in csfd_tips:
+        tid = (it["media_type"], it["id"])
+        all_raw_items[tid] = it
+        all_raw_items[tid]["categories"] = ["movies_tv_tips"]
+
     for cat in category_definitions:
         cat_key = cat["key"]
         cat_name = cat["name"]
         categories_dict[cat_key] = cat_name
         print(f"  -> Fetching category: {cat_name} ({cat['endpoint']})")
-        items = tmdb.fetch_items_for_category(cat["endpoint"], cat["params"], cat["media_type"], cat_key)
+        items = tmdb.fetch_items_for_category(cat["endpoint"], cat["params"], cat["media_type"], cat_key, max_pages=cat.get("max_pages", 3))
         for it in items:
             tid = (it["media_type"], it["id"])
             if tid not in all_raw_items:
@@ -602,7 +755,7 @@ def main():
     items_list = list(all_raw_items.values())
 
     start_time = time.time()
-    with ThreadPoolExecutor(max_workers=3) as executor:
+    with ThreadPoolExecutor(max_workers=5) as executor:
         future_to_item = {executor.submit(verify_availability, item): item for item in items_list}
         done_count = 0
         for future in as_completed(future_to_item):
