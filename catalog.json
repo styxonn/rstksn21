@@ -1,8 +1,9 @@
 {
   "generated_at": "2026-10-29T20:04:32.640896Z",
-  "total_items": 258,
+  "total_items": 262,
   "categories": {
     "movies_tv_tips": "TV tipy pro dnešní den",
+    "movies_new": "🎬 Filmy - Novinky",
     "movies_trending": "Filmy - Trendy týdne",
     "movies_popular": "Filmy - Populární",
     "movies_online": "Filmy - Nově online",
@@ -339,6 +340,7 @@
         "Dokumentární"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular"
       ],
@@ -362,6 +364,7 @@
         "Akční"
       ],
       "categories": [
+        "movies_new",
         "movies_online",
         "movies_action",
         "movies_animation"
@@ -576,6 +579,7 @@
         "Dobrodružný"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -1133,6 +1137,7 @@
         "Dobrodružný"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -1157,6 +1162,7 @@
         "Komedie"
       ],
       "categories": [
+        "movies_new",
         "movies_popular",
         "movies_online",
         "movies_action",
@@ -1375,6 +1381,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -1703,6 +1710,7 @@
         "Válečný"
       ],
       "categories": [
+        "movies_new",
         "movies_trending"
       ],
       "quality": "1080p",
@@ -1961,6 +1969,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -1985,6 +1994,7 @@
         "Komedie"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_comedy"
@@ -2008,6 +2018,7 @@
         "Fantasy"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_action"
@@ -2634,6 +2645,7 @@
         "Dobrodružný"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -2658,6 +2670,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_popular",
         "movies_online",
         "movies_thriller",
@@ -2880,6 +2893,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -2907,6 +2921,7 @@
         "Fantasy"
       ],
       "categories": [
+        "movies_new",
         "movies_popular",
         "movies_online",
         "movies_comedy",
@@ -3228,6 +3243,7 @@
         "Sci-Fi"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_scifi",
@@ -3255,6 +3271,7 @@
         "Rodinný"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -3281,6 +3298,7 @@
         "Dobrodružný"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -3304,6 +3322,7 @@
         "Drama"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_comedy"
@@ -3581,6 +3600,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_popular",
         "movies_online",
         "movies_scifi",
@@ -3691,6 +3711,7 @@
         "Dobrodružný"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_scifi",
@@ -3998,6 +4019,7 @@
         "Komedie"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -4149,6 +4171,7 @@
         "Fantasy"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -4174,6 +4197,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -4303,6 +4327,7 @@
         "Krimi"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -4330,6 +4355,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_popular",
         "movies_action",
         "movies_thriller",
@@ -4353,6 +4379,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_popular",
         "movies_action",
         "movies_thriller"
@@ -4375,6 +4402,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_thriller"
       ],
       "quality": "1080p",
@@ -4486,6 +4514,7 @@
         "Sci-Fi"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -4510,6 +4539,7 @@
         "Drama"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online"
@@ -4532,6 +4562,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -4619,6 +4650,7 @@
         "Akční"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -4645,6 +4677,7 @@
         "Mysteriózní"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -4690,6 +4723,7 @@
         "Drama"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_online"
       ],
@@ -4711,6 +4745,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_thriller"
       ],
       "quality": "1080p",
@@ -4848,6 +4883,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_thriller"
@@ -4939,6 +4975,7 @@
         "Mysteriózní"
       ],
       "categories": [
+        "movies_new",
         "movies_popular",
         "movies_online",
         "movies_horror"
@@ -5045,6 +5082,7 @@
         "Fantasy"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_action"
@@ -5190,6 +5228,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_popular",
         "movies_online",
         "movies_action",
@@ -5233,6 +5272,7 @@
         "Komedie"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
@@ -5318,6 +5358,7 @@
         "Horor"
       ],
       "categories": [
+        "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_horror"
@@ -5340,6 +5381,7 @@
         "Drama"
       ],
       "categories": [
+        "movies_new",
         "movies_scifi"
       ],
       "quality": "1080p",
@@ -5360,6 +5402,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_popular",
         "movies_online",
         "movies_action",
@@ -5406,6 +5449,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_popular",
         "movies_online",
         "movies_action",
@@ -5451,6 +5495,7 @@
         "Horor"
       ],
       "categories": [
+        "movies_new",
         "movies_popular",
         "movies_online",
         "movies_horror"
@@ -5494,6 +5539,7 @@
         "Horor"
       ],
       "categories": [
+        "movies_new",
         "movies_popular",
         "movies_online",
         "movies_thriller",
@@ -5517,6 +5563,7 @@
         "Thriller"
       ],
       "categories": [
+        "movies_new",
         "movies_thriller",
         "movies_horror"
       ],
@@ -5670,6 +5717,86 @@
       ],
       "quality": "1080p",
       "has_cz_dubbing": false
+    },
+    {
+      "id": 791523,
+      "media_type": "movie",
+      "title": "Wildwood: Tajemství zakázaného lesa",
+      "original_title": "Wildwood",
+      "year": 2026,
+      "overview": "",
+      "vote_average": 8.6,
+      "poster_path": "/8g7q6o54WfKWRmUQ0Ye8OskevUY.jpg",
+      "backdrop_path": "/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+      "genres": [
+        "Animovaný",
+        "Dobrodružný",
+        "Fantasy"
+      ],
+      "quality": "1080p",
+      "has_cz_dubbing": false,
+      "categories": [
+        "movies_new"
+      ]
+    },
+    {
+      "id": 1101412,
+      "media_type": "movie",
+      "title": "Na hraně smrti 2: Deadpoint",
+      "original_title": "Fall 2: Deadpoint",
+      "year": 2026,
+      "overview": "Po tragické ztrátě sestry Hunter se Jax rozhodne čelit svému strachu a vydá se s její bývalou přítelkyní na nebezpečný výstup, který má uctít památku Hunter. Zatímco se jako na laně pohybují po nebezpečných prknech hory Kwan, uvězní je děsivý sesuv kamení 1 524 metrů nad zemí. Tváří v tvář scénám vyvolávajícím závratě, temným pravdám a krutým zvratům musí Jax čelit svým nejhlubším strachům, aby bojovala o přežití a našla vnitřní smíření.",
+      "vote_average": 7.3,
+      "poster_path": "/1vjyCupsnr2qI8LAgvL3QwpbjIa.jpg",
+      "backdrop_path": "/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg",
+      "genres": [
+        "Thriller"
+      ],
+      "quality": "HD",
+      "has_cz_dubbing": false,
+      "categories": [
+        "movies_new"
+      ]
+    },
+    {
+      "id": 1376400,
+      "media_type": "movie",
+      "title": "Hnízdo",
+      "original_title": "Crawlers",
+      "year": 2026,
+      "overview": "",
+      "vote_average": 6.2,
+      "poster_path": "/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+      "backdrop_path": "/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg",
+      "genres": [
+        "Horor",
+        "Thriller"
+      ],
+      "quality": "1080p",
+      "has_cz_dubbing": false,
+      "categories": [
+        "movies_new"
+      ]
+    },
+    {
+      "id": 1263337,
+      "media_type": "movie",
+      "title": "V srdci divočiny",
+      "original_title": "Heart of the Beast",
+      "year": 2026,
+      "overview": "James Belmont, penzionovaný vojenský expert, se se svým psem Odinem, taktéž válečným veteránem, vydává na výlet do aljašské divočiny. Jejich výprava se povážlivě zkomplikuje, když James vinou zdravotní indispozice nezvládne pilotování malého letadla a havaruje. Ti dva už v minulosti ve válečné zóně dokázali, že se jeden na druhého můžou stoprocentně spolehnout. Zvládnou ale spolu zdolat nástrahy aljašské divočiny, kde číhá smrtelné nebezpečí na každém kroku? A poté, co oba letecká havárie nepěkně pocuchala? A protože jedinou nadějí na přežití je pro oba návrat do civilizace, musí se vydat na cestu, která se promění v boj s přírodou v její nejdrsnější podobě. Když ale máte po boku dobrého parťáka, lze zvládnout cokoliv.",
+      "vote_average": 7.3,
+      "poster_path": "/vIQY7fG0AzSCUhO8BIOusCdhjAz.jpg",
+      "backdrop_path": "/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
+      "genres": [
+        "Dobrodružný",
+        "Thriller"
+      ],
+      "quality": "HD",
+      "has_cz_dubbing": false,
+      "categories": [
+        "movies_new"
+      ]
     }
   ]
 }
