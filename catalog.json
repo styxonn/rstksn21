@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T03:59:31.451355Z",
-  "total_items": 265,
+  "generated_at": "2026-11-27T04:00:01.038678Z",
+  "total_items": 272,
   "categories": {
     "movies_tv_tips": "TV tipy pro dnešní den",
     "movies_new": "🎬 Filmy - Novinky",
@@ -17,25 +17,6 @@
     "tv_popular": "Seriály - Populární"
   },
   "items": [
-    {
-      "id": 288120,
-      "media_type": "tv",
-      "title": "Hra o osud Vídně",
-      "original_title": "Vienna Game",
-      "year": 2026,
-      "overview": "",
-      "vote_average": 9.2,
-      "poster_path": "/aepvwQq6X48RBFjQogHtTbAVGke.jpg",
-      "backdrop_path": "/hQ7pzPFt7HiwAnsTwTsUadwHu6A.jpg",
-      "genres": [
-        "Komedie"
-      ],
-      "categories": [
-        "tv_trending"
-      ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
-    },
     {
       "id": 1560520,
       "media_type": "movie",
@@ -56,29 +37,6 @@
         "movies_animation"
       ],
       "quality": "4K",
-      "has_cz_dubbing": false
-    },
-    {
-      "id": 1562642,
-      "media_type": "movie",
-      "title": "Ghost Soldier",
-      "original_title": "Ghost Soldier",
-      "year": 2026,
-      "overview": "Henry \"Fitz\" Fitzgerald strávil roky tiše mimo dosah, skrýval se před několika lidmi, o kterých něco ví. Když však mocná zahraniční korporace vtrhne do jeho rodného města, aby zabrala pozemky jeho sousedů kvůli obrovskému výdělku, Fitz je nucen odhalit, kdo skutečně je: bývalý voják speciálních sil a vývojář pokročilých zbraní. Vyzbrojen experimentální technologií, smrtícími bojovými schopnostmi a neochvějným kodexem spravedlnosti, Fitz vede sólovou válku proti nepříteli, který ho nikdy neviděl přijít.",
-      "vote_average": 9.0,
-      "poster_path": "/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
-      "backdrop_path": "/ggqvhSdAASrseKuMlzk51sbvbE8.jpg",
-      "genres": [
-        "Akční",
-        "Thriller"
-      ],
-      "categories": [
-        "movies_new",
-        "movies_popular",
-        "movies_action",
-        "movies_thriller"
-      ],
-      "quality": "720p",
       "has_cz_dubbing": false
     },
     {
@@ -106,6 +64,28 @@
       "has_cz_dubbing": true
     },
     {
+      "id": 326247,
+      "media_type": "tv",
+      "title": "Fool Night",
+      "original_title": "フールナイト",
+      "year": 2026,
+      "overview": "V budoucnosti, kde nesvítí Slunce, se lidi změní v rostliny, aby vyráběli kyslík. Zoufalý mladík, co takovou proměnou prochází, odhalí spiknutí, které má hodně hluboké kořeny.",
+      "vote_average": 9.0,
+      "poster_path": "/vTTr4YG3qIUq6E5uahU0fWSWch7.jpg",
+      "backdrop_path": "/rumSTVTcuZj0khFXxXgwXouIMgg.jpg",
+      "genres": [
+        "Animovaný",
+        "Drama",
+        "Sci-Fi a Fantasy",
+        "Mysteriózní"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "CZ",
+      "has_cz_dubbing": true
+    },
+    {
       "id": 208929,
       "media_type": "tv",
       "title": "Blue Planet III",
@@ -122,6 +102,30 @@
         "tv_trending"
       ],
       "quality": "4K",
+      "has_cz_dubbing": false
+    },
+    {
+      "id": 1562642,
+      "media_type": "movie",
+      "title": "Ghost Soldier",
+      "original_title": "Ghost Soldier",
+      "year": 2026,
+      "overview": "Henry \"Fitz\" Fitzgerald strávil roky tiše mimo dosah, skrýval se před několika lidmi, o kterých něco ví. Když však mocná zahraniční korporace vtrhne do jeho rodného města, aby zabrala pozemky jeho sousedů kvůli obrovskému výdělku, Fitz je nucen odhalit, kdo skutečně je: bývalý voják speciálních sil a vývojář pokročilých zbraní. Vyzbrojen experimentální technologií, smrtícími bojovými schopnostmi a neochvějným kodexem spravedlnosti, Fitz vede sólovou válku proti nepříteli, který ho nikdy neviděl přijít.",
+      "vote_average": 8.9,
+      "poster_path": "/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
+      "backdrop_path": "/ggqvhSdAASrseKuMlzk51sbvbE8.jpg",
+      "genres": [
+        "Akční",
+        "Thriller"
+      ],
+      "categories": [
+        "movies_new",
+        "movies_trending",
+        "movies_popular",
+        "movies_action",
+        "movies_thriller"
+      ],
+      "quality": "720p",
       "has_cz_dubbing": false
     },
     {
@@ -219,7 +223,7 @@
       "overview": "Třicet čtyři dní předtím, než má nastoupit do vězení, pozve notoricky známá zakladatelka společnosti Theranos Elizabeth Holmes skeptický filmový štáb, aby zaznamenal každý její krok. To, co začíná jako intimní portrét, se promění v ohromující tříletou cestu.",
       "vote_average": 8.6,
       "poster_path": "/mVh3qkw2NUFxWWyF0G1hg2Wh0K5.jpg",
-      "backdrop_path": "/rrbbzCyS45yooXpUGJatfptlHYI.jpg",
+      "backdrop_path": "/fnIcdPVaO4JAzfLhv8OVEqFK6a7.jpg",
       "genres": [
         "Dokumentární"
       ],
@@ -314,32 +318,6 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 969681,
-      "media_type": "movie",
-      "title": "Spider-Man: Zbrusu nový den",
-      "original_title": "Spider-Man: Brand New Day",
-      "year": 2026,
-      "overview": "Peter Parker dnes žije osamělý život. Jeho oběť pro záchranu multivesmíru jej vymazala z paměti a srdcí nejbližších přátel, a tak se z něj stal Spider-Man na plný úvazek. Ochrana města si však vybírá svoji daň a Petr čelí nečekaným fyzickým následkům. Zatímco bojuje o holý život, ve městě se vynořuje temná hrozba s nevídanou mocí. Dokáže Peter zachránit New York, když riskuje, že ztratí i to poslední, co mu zbylo – sama sebe?",
-      "vote_average": 8.5,
-      "poster_path": "/4yIR61TftQu9Rk5EVJaHbhO5Dqc.jpg",
-      "backdrop_path": "/r08LxMJCbf1SiJIWeyH9aJmdqwC.jpg",
-      "genres": [
-        "Sci-Fi",
-        "Akční",
-        "Dobrodružný"
-      ],
-      "categories": [
-        "movies_new",
-        "movies_trending",
-        "movies_popular",
-        "movies_online",
-        "movies_action",
-        "movies_scifi"
-      ],
-      "quality": "CZ",
-      "has_cz_dubbing": true
-    },
-    {
       "id": 791523,
       "media_type": "movie",
       "title": "Wildwood: Tajemství zakázaného lesa",
@@ -361,6 +339,26 @@
       ],
       "quality": "1080p",
       "has_cz_dubbing": false
+    },
+    {
+      "id": 213562,
+      "media_type": "tv",
+      "title": "Crystal Lake",
+      "original_title": "Crystal Lake",
+      "year": 2026,
+      "overview": "Samoživitelka Pam Voorheesová se stále nedokáže vyrovnat s tragickou ztrátou svého nemocného syna Jasona, který se před necelým rokem utopil v místním jezeře. Když u jejích dveří jednoho dne objeví dva cizinci a začnou se šťourat v její minulosti, spustí tím řetězec znepokojivých událostí. Obyvatelé městečka Crystal Lake si brzy začínají klást jedinou otázku: Kdo ve skutečnosti je Pam Voorheesová?",
+      "vote_average": 8.5,
+      "poster_path": "/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
+      "backdrop_path": "/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+      "genres": [
+        "Drama",
+        "Mysteriózní"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "720p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 259909,
@@ -600,27 +598,6 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 13,
-      "media_type": "movie",
-      "title": "Forrest Gump",
-      "original_title": "Forrest Gump",
-      "year": 1994,
-      "overview": "Forrest Gump je prosťáček, který od dětství dělal, co se mu řeklo. Do života si tak odnesl několik ponaučení své maminky a osvědčené pravidlo, jež se mu hodí mnohokrát v nejrůznějších situacích: „Když se dostaneš do problémů, utíkej.“ Forrest proutíká školou, jako hráč amerického fotbalu i univerzitou, potom peklem vietnamské války a zoufalstvím nad matčinou smrtí. Vždycky je totiž někdo nebo něco, co po něm skutečně či obrazně „hází kameny“. Nakonec však Forrest poznává, že jsou i jiná řešení situací než útěk. Svůj život spojuje s kamarádkou ze školy Jenny, která pro něj zůstane provždycky jedinou láskou, s přítelem z vojny, černochem Bubbou, který dá směr jeho úvahám o lovu krevet, a s poručíkem Taylorem, jemuž ve Vietnamu zachrání život. Snímek je doslova prošpikován nejrůznějšími kulturními i společenskými odkazy, viděnými ovšem bizarně naivním pohledem hlavního hrdiny, úzce soustředěným na několik hlavních nehodnotících hledisek.",
-      "vote_average": 8.5,
-      "poster_path": "/Cw4hIUIAmSYfK9QfaUW5igp9La.jpg",
-      "backdrop_path": "/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
-      "genres": [
-        "Komedie",
-        "Drama",
-        "Romantický"
-      ],
-      "categories": [
-        "movies_comedy"
-      ],
-      "quality": "4K CZ",
-      "has_cz_dubbing": true
-    },
-    {
       "id": 680,
       "media_type": "movie",
       "title": "Pulp Fiction: Historky z podsvětí",
@@ -643,6 +620,27 @@
       "has_cz_dubbing": true
     },
     {
+      "id": 13,
+      "media_type": "movie",
+      "title": "Forrest Gump",
+      "original_title": "Forrest Gump",
+      "year": 1994,
+      "overview": "Forrest Gump je prosťáček, který od dětství dělal, co se mu řeklo. Do života si tak odnesl několik ponaučení své maminky a osvědčené pravidlo, jež se mu hodí mnohokrát v nejrůznějších situacích: „Když se dostaneš do problémů, utíkej.“ Forrest proutíká školou, jako hráč amerického fotbalu i univerzitou, potom peklem vietnamské války a zoufalstvím nad matčinou smrtí. Vždycky je totiž někdo nebo něco, co po něm skutečně či obrazně „hází kameny“. Nakonec však Forrest poznává, že jsou i jiná řešení situací než útěk. Svůj život spojuje s kamarádkou ze školy Jenny, která pro něj zůstane provždycky jedinou láskou, s přítelem z vojny, černochem Bubbou, který dá směr jeho úvahám o lovu krevet, a s poručíkem Taylorem, jemuž ve Vietnamu zachrání život. Snímek je doslova prošpikován nejrůznějšími kulturními i společenskými odkazy, viděnými ovšem bizarně naivním pohledem hlavního hrdiny, úzce soustředěným na několik hlavních nehodnotících hledisek.",
+      "vote_average": 8.5,
+      "poster_path": "/Cw4hIUIAmSYfK9QfaUW5igp9La.jpg",
+      "backdrop_path": "/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
+      "genres": [
+        "Komedie",
+        "Drama",
+        "Romantický"
+      ],
+      "categories": [
+        "movies_comedy"
+      ],
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
+    },
+    {
       "id": 1419406,
       "media_type": "movie",
       "title": "Hrana stínu",
@@ -659,32 +657,11 @@
         "Thriller"
       ],
       "categories": [
-        "movies_online",
         "movies_action",
         "movies_thriller"
       ],
       "quality": "1080p CZ",
       "has_cz_dubbing": true
-    },
-    {
-      "id": 97546,
-      "media_type": "tv",
-      "title": "Ted Lasso",
-      "original_title": "Ted Lasso",
-      "year": 2020,
-      "overview": "Idealistický a bezradný trenér amerického fotbalu Ted Lasso je najat, aby kaučoval fotbalový klub v Británii, i když s trénováním klasického fotbalu nemá žádné zkušenosti.",
-      "vote_average": 8.4,
-      "poster_path": "/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "backdrop_path": "/4bG49jVR7NrCNQjahDUsDqvIwle.jpg",
-      "genres": [
-        "Drama",
-        "Komedie"
-      ],
-      "categories": [
-        "tv_trending"
-      ],
-      "quality": "4K",
-      "has_cz_dubbing": false
     },
     {
       "id": 324857,
@@ -746,6 +723,7 @@
         "Krimi"
       ],
       "categories": [
+        "movies_online",
         "movies_action",
         "movies_scifi"
       ],
@@ -795,27 +773,6 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 121,
-      "media_type": "movie",
-      "title": "Pán prstenů: Dvě věže",
-      "original_title": "The Lord of the Rings: The Two Towers",
-      "year": 2002,
-      "overview": "Po smrti Boromira a rozpadu Společenstva se cesty jeho členů rozdělily. Hobbit Frodo se svým sluhou Samem putují s Prstenem do Mordoru a Aragorn s elfem Legolasem a trpaslíkem Gimlim se vydávají po stopě skřetů, aby osvobodili z jejich zajetí hobbity Smíška a Pippina. Mezitím však sílí moc temného pána Saurona, který se spojil se zrádným čarodějem Sarumanem a společně upínají všechny síly k získání Prstenu. Naše hrdiny tak čeká ještě dlouhé putování a mnohé nástrahy, než se jim podaří Prsten moci jednou provždy zničit…",
-      "vote_average": 8.4,
-      "poster_path": "/n5uFcwFVAUlstkcR2CD4mnisrKg.jpg",
-      "backdrop_path": "/6G73mNyooWAEQTpckPSnFxFoNmc.jpg",
-      "genres": [
-        "Dobrodružný",
-        "Fantasy",
-        "Akční"
-      ],
-      "categories": [
-        "movies_action"
-      ],
-      "quality": "4K CZ",
-      "has_cz_dubbing": true
-    },
-    {
       "id": 550,
       "media_type": "movie",
       "title": "Klub rváčů",
@@ -831,6 +788,27 @@
       ],
       "categories": [
         "movies_thriller"
+      ],
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 615,
+      "media_type": "tv",
+      "title": "Futurama",
+      "original_title": "Futurama",
+      "year": 1999,
+      "overview": "Kultovní televizní seriál (od tvůrců neméně legendárních Simpsonových). Co se stane, když se do budoucnosti dostane člověk, jehož první, druhé a třetí jméno je Zkrachovalec, Nicka a Smolař? Na to vám odpoví seriál Futurama o jednom takovém týpkovi Philipu J. Fryovi, který se omylem nechá zmrazit na tisíc let a po probuzení začne pracovat pro svého vynalézavého potomka v transportní společnosti s tlupou prapodivných existencí jako posádkou dopravní lodi.",
+      "vote_average": 8.4,
+      "poster_path": "/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg",
+      "backdrop_path": "/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg",
+      "genres": [
+        "Animovaný",
+        "Komedie",
+        "Sci-Fi a Fantasy"
+      ],
+      "categories": [
+        "tv_trending"
       ],
       "quality": "1080p CZ",
       "has_cz_dubbing": true
@@ -958,6 +936,26 @@
         "tv_popular"
       ],
       "quality": "CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 77338,
+      "media_type": "movie",
+      "title": "Nedotknutelní",
+      "original_title": "Intouchables",
+      "year": 2011,
+      "overview": "Philippe je bohatý aristokrat, jenž po těžké nehodě zůstal ochrnutý na celém těle. Driss je mladík z předměstí Paříže, který se právě vrátil z vězení. Při konkurzu na místo domácího pomocníka a ošetřovale se Drissovi podaří Philippa zaujmout natolik, že jej zaměstná. Dochází tak ke střetu dvou odlišných světů, který vytvoří základ pro vznik neobyčejného přátelství.",
+      "vote_average": 8.3,
+      "poster_path": "/4iTUHpbYAeSA4WCDOrWb8eL0Lbk.jpg",
+      "backdrop_path": "/q6OGlZ1KMEb14AC8KbPCxyNOal6.jpg",
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "categories": [
+        "movies_comedy"
+      ],
+      "quality": "4K CZ",
       "has_cz_dubbing": true
     },
     {
@@ -1227,6 +1225,68 @@
       "has_cz_dubbing": true
     },
     {
+      "id": 1280738,
+      "media_type": "movie",
+      "title": "The Furious",
+      "original_title": "火遮眼",
+      "year": 2026,
+      "overview": "Poté, co je dcera Wang Weiho unesena zločineckou sítí a on se nedočká žádné pomoci od zkorumpované policie, vydává se Wei na vlastní pěst ji hledat. Jeho jediným spojencem je Navin, neúprosný novinář, jehož manželka záhadně zmizela. Poháněni zuřivou touhou po pomstě se tato nepravděpodobná dvojice v tomto výbušném souboji bojových umění nemilosrdně postaví únoscům.",
+      "vote_average": 8.2,
+      "poster_path": "/k334z7zxOJlJvOsOwyRF6HClCvi.jpg",
+      "backdrop_path": "/1AVF2fAevpfi2HP6AEpptG1kg8R.jpg",
+      "genres": [
+        "Akční",
+        "Krimi",
+        "Thriller"
+      ],
+      "categories": [
+        "movies_thriller"
+      ],
+      "quality": "4K",
+      "has_cz_dubbing": false
+    },
+    {
+      "id": 288673,
+      "media_type": "tv",
+      "title": "Carrie",
+      "original_title": "Carrie",
+      "year": 2026,
+      "overview": "Po náhlé a nečekané smrti otce, která ji vrhne do nemilosrdného světa státní střední školy, se Carrie musí vyrovnávat s virálním skandálem kolem šikany pronikajícím její komunitou, neúprosným tlakem a každodenní krutostí světa sociálních médií. Zároveň si zvyká na probuzení záhadných telekinetických schopností, které rostou spolu s ní.",
+      "vote_average": 8.2,
+      "poster_path": "/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+      "backdrop_path": "/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
+      "genres": [
+        "Mysteriózní",
+        "Drama",
+        "Sci-Fi a Fantasy"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "HD",
+      "has_cz_dubbing": false
+    },
+    {
+      "id": 361743,
+      "media_type": "movie",
+      "title": "Top Gun: Maverick",
+      "original_title": "Top Gun: Maverick",
+      "year": 2022,
+      "overview": "Přes třicet let ve službě. Pochvaly. Vyznamenání. Jediný, kdo za posledních 40 let sestřelil tři nepřátelská letadla. Přesto ho nikdy nepovýšili? Proč? Protože je to Maverick. Rebel, který poslouchá jen sebe sama.",
+      "vote_average": 8.2,
+      "poster_path": "/n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg",
+      "backdrop_path": "/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg",
+      "genres": [
+        "Akční",
+        "Drama"
+      ],
+      "categories": [
+        "movies_action"
+      ],
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
+    },
+    {
       "id": 354912,
       "media_type": "movie",
       "title": "Coco",
@@ -1384,7 +1444,9 @@
         "Sci-Fi"
       ],
       "categories": [
-        "movies_scifi"
+        "movies_action",
+        "movies_scifi",
+        "movies_thriller"
       ],
       "quality": "4K CZ",
       "has_cz_dubbing": true
@@ -1521,26 +1583,6 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 291507,
-      "media_type": "tv",
-      "title": "Tělo",
-      "original_title": "The Body",
-      "year": 2026,
-      "overview": "Provinilé pocity, hříšné touhy a zjevení duchů? O Halloweenu uspořádá dívčí taneční soubor z katolické školy přijímací rituál pro novou členku, který se ale pekelně zvrtne.",
-      "vote_average": 8.1,
-      "poster_path": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
-      "backdrop_path": "/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
-      "genres": [
-        "Mysteriózní",
-        "Drama"
-      ],
-      "categories": [
-        "tv_trending"
-      ],
-      "quality": "CZ",
-      "has_cz_dubbing": true
-    },
-    {
       "id": 693134,
       "media_type": "movie",
       "title": "Duna: Část druhá",
@@ -1604,26 +1646,6 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 67744,
-      "media_type": "tv",
-      "title": "MINDHUNTER: Lovci myšlenek",
-      "original_title": "MINDHUNTER",
-      "year": 2017,
-      "overview": "Dva agenti FBI se na konci 70. let ve snaze pomoci rozvoji kriminalistiky odhodlali ponořit do psychologie vraždy a přiblížit se znepokojivě blízko skutečným netvorům.",
-      "vote_average": 8.1,
-      "poster_path": "/fbKE87mojpIETWepSbD5Qt741fp.jpg",
-      "backdrop_path": "/lpDVJuIro21gtMj9iXMFKHuroZN.jpg",
-      "genres": [
-        "Drama",
-        "Krimi"
-      ],
-      "categories": [
-        "tv_popular"
-      ],
-      "quality": "CZ",
-      "has_cz_dubbing": true
-    },
-    {
       "id": 1413,
       "media_type": "tv",
       "title": "American Horror Story",
@@ -1670,7 +1692,7 @@
     {
       "id": 10681,
       "media_type": "movie",
-      "title": "VALL-I",
+      "title": "VALL·I",
       "original_title": "WALL·E",
       "year": 2008,
       "overview": "Film začíná v roce 2700. Poslední operační stroj VALL-I stále plní úkol čištění Země se svým jediným mazlíčkem – švábem Halem, který mu dělá společnost. Malý robot, roztomilý a působivý, si za ta léta docela vyvinul svou osobnost. Bydlí v maringotce plné zvláštností a artefaktů z lidského života jako je Rubikova kostka, kuchyňský šlehač a jeho největší poklad – stará video kazeta s filmem Hello Dolly. Během začátku filmu si přidá do své sbírky novou věc – malou rostlinku, kterou zasadí do staré boty. Jednoho dne jde VALL-I po své obvyklé práci, ale blízko přistane kosmická loď. Kosmická loď vyšle malou, létající robotku Eve, která začíná na povrchu planety něco hledat. VALL-I se beznadějně zamiluje. Rodinná animovaná pohádka ze studia Pixar.",
@@ -1751,7 +1773,7 @@
         "movies_online",
         "movies_action"
       ],
-      "quality": "4K CZ",
+      "quality": "CZ",
       "has_cz_dubbing": true
     },
     {
@@ -1801,6 +1823,48 @@
       "has_cz_dubbing": true
     },
     {
+      "id": 1457866,
+      "media_type": "movie",
+      "title": "Další (ne)zdary Cliffa Boothe",
+      "original_title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
+      "year": 2026,
+      "overview": "Píše se rok 1977 a Hollywood už není to, co býval. Zatímco kina po celém světě začínají ovládat vesmírné ságy a velkolepé blockbustery, Cliff Booth se pohybuje v mnohem špinavější realitě. Už to není jen kaskadér bez práce; stal se z něj muž, kterého studia volají, když mají problém, který policie nesmí vyřešit. Jako profesionální „fixer“ dostává Cliff zakázku, která ho zavede hluboko do podsvětí slunného Los Angeles. Musí vypátrat zmizelou herečku a přitom se proplétat mezi ambiciózními producenty, nebezpečnými gangy a stíny vlastní minulosti, která ho neustále dohání. V režii Davida Finchera a podle scénáře Quentina Tarantina přichází stylový kriminální thriller o muži, který s ledovým klidem a plechovkou piva v ruce uklidí jakýkoliv nepořádek. Ale v městě plném lží a neonů může být tentokrát i pro Cliffa Bootha cena za pravdu příliš vysoká.",
+      "vote_average": 8.0,
+      "poster_path": "/thX8Rs7nfgmPHfCgjoFuRovy49l.jpg",
+      "backdrop_path": "/aRO4TuqF8dkRCb5tPlsSlpJbmQD.jpg",
+      "genres": [
+        "Komedie",
+        "Drama",
+        "Thriller"
+      ],
+      "categories": [
+        "movies_trending",
+        "movies_comedy"
+      ],
+      "quality": "720p",
+      "has_cz_dubbing": false
+    },
+    {
+      "id": 291507,
+      "media_type": "tv",
+      "title": "Tělo",
+      "original_title": "The Body",
+      "year": 2026,
+      "overview": "Provinilé pocity, hříšné touhy a zjevení duchů? O Halloweenu uspořádá dívčí taneční soubor z katolické školy přijímací rituál pro novou členku, který se ale pekelně zvrtne.",
+      "vote_average": 8.0,
+      "poster_path": "/zleCYDRbW5mKwgZwVK4SNIrKXWx.jpg",
+      "backdrop_path": "/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
+      "genres": [
+        "Mysteriózní",
+        "Drama"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "CZ",
+      "has_cz_dubbing": true
+    },
+    {
       "id": 290856,
       "media_type": "tv",
       "title": "Marshals: Příběh z Yellowstonu",
@@ -1843,6 +1907,26 @@
       ],
       "quality": "4K CZ",
       "has_cz_dubbing": true
+    },
+    {
+      "id": 83631,
+      "media_type": "tv",
+      "title": "Co děláme v temnotách",
+      "original_title": "What We Do in the Shadows",
+      "year": 2019,
+      "overview": "Guillermo je člověk, který žije v domě s čtyřmi upíry a patří mezi jejich lidské společníky. Jejich klidné soužití je narušeno upířím mistrem, který chce ovládnout svět.",
+      "vote_average": 8.0,
+      "poster_path": "/mOa7gvagTWBfknXzLIaCFTtowDV.jpg",
+      "backdrop_path": "/mKikck71CvVISUSTLk29fwRbH4y.jpg",
+      "genres": [
+        "Komedie",
+        "Sci-Fi a Fantasy"
+      ],
+      "categories": [
+        "tv_popular"
+      ],
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 80240,
@@ -1922,7 +2006,6 @@
         "Horor"
       ],
       "categories": [
-        "movies_popular",
         "movies_online",
         "movies_animation",
         "movies_horror"
@@ -2102,27 +2185,6 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 313369,
-      "media_type": "movie",
-      "title": "La La Land",
-      "original_title": "La La Land",
-      "year": 2016,
-      "overview": "Moderní pojetí klasického hollywoodského milostného románu umocněné skvělými písničkami doprovázenými velkolepými tanečními čísly líčí vášnivý milostný vztah od něžného vzrušení rozvíjející se lásky až po trpké zklamání z velkých ambicí.",
-      "vote_average": 7.9,
-      "poster_path": "/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
-      "backdrop_path": "/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
-      "genres": [
-        "Komedie",
-        "Drama",
-        "Romantický"
-      ],
-      "categories": [
-        "movies_comedy"
-      ],
-      "quality": "CZ",
-      "has_cz_dubbing": true
-    },
-    {
       "id": 150540,
       "media_type": "movie",
       "title": "V hlavě",
@@ -2144,6 +2206,49 @@
         "movies_animation"
       ],
       "quality": "4K CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 210577,
+      "media_type": "movie",
+      "title": "Zmizelá",
+      "original_title": "Gone Girl",
+      "year": 2014,
+      "overview": "V den pátého výročí svatby Nick Dunne nahlašuje, že jeho manželka zmizela. Pod tlakem policie a narůstajícího mediálního šílenství začnou jeho lži, vytáčky a podivné chování vyvolávat ve všech znepokojivou otázku: zabil Nick Dunne svou ženu?",
+      "vote_average": 7.9,
+      "poster_path": "/iUp1dxP8qHKn4WefLr8zgoTT0zS.jpg",
+      "backdrop_path": "/iWak7wT0j6ycCc8lKr4NBz9c7n5.jpg",
+      "genres": [
+        "Mysteriózní",
+        "Thriller",
+        "Drama"
+      ],
+      "categories": [
+        "movies_thriller"
+      ],
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 10191,
+      "media_type": "movie",
+      "title": "Jak vycvičit draka",
+      "original_title": "How to Train Your Dragon",
+      "year": 2010,
+      "overview": "Dobrodružství se odehrává na drsném Severu, který obývají ještě drsnější Vikingové a spolu s nimi i draci. Ti jsou jednoznačně nejdrsnější. Jediný, kdo není drsný ani trochu, je hlavní hrdina Škyťák. Vikinský teenager nějak nemůže zapadnout mezi ostatní obyvatele rodného ostrova Blpu, protože na rozdíl od nich spíš než svaly (kterých má pomálu), používá hlavu. Asi by se to dalo přejít, kdyby Škyťák nebyl synem náčelníka vesnice, Kliďase Velikána. Taťka má syna rád, ale bohužel si uvědomuje jeho „nedostatečnost“. Zvlášť když se blíží Škyťákovo iniciační uvedení mezi dospělé Vikingy, které lze úspěšně absolvovat jediným způsobem – zabitím draka v souboji.",
+      "vote_average": 7.9,
+      "poster_path": "/4NZde94xSeiTACur550cBYcv7tx.jpg",
+      "backdrop_path": "/59vDC1BuEQvti24OMr0ZvtAK6R1.jpg",
+      "genres": [
+        "Fantasy",
+        "Dobrodružný",
+        "Animovaný",
+        "Rodinný"
+      ],
+      "categories": [
+        "movies_animation"
+      ],
+      "quality": "SD CZ",
       "has_cz_dubbing": true
     },
     {
@@ -2229,6 +2334,27 @@
       "categories": [
         "movies_comedy",
         "movies_animation"
+      ],
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 78,
+      "media_type": "movie",
+      "title": "Blade Runner",
+      "original_title": "Blade Runner",
+      "year": 1982,
+      "overview": "Příběh se odehrává v blízké budoucnosti, kdy věda pokročila a společnost začala vyrábět replikanty, kteří jsou od lidí k nerozeznání. Těm je však po krvavé vzpouře v jedné mimozemské kolonii zakázán vstup na Zemi pod trestem smrti...",
+      "vote_average": 7.9,
+      "poster_path": "/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
+      "backdrop_path": "/2spEHYDcyE9r9mS7AFEscfKVDzO.jpg",
+      "genres": [
+        "Sci-Fi",
+        "Drama",
+        "Thriller"
+      ],
+      "categories": [
+        "movies_scifi"
       ],
       "quality": "1080p CZ",
       "has_cz_dubbing": true
@@ -2357,94 +2483,6 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 1381071,
-      "media_type": "movie",
-      "title": "Godzilla Minus Zero",
-      "original_title": "ゴジラ-0.0",
-      "year": 2026,
-      "overview": "",
-      "vote_average": 7.7,
-      "poster_path": "/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
-      "backdrop_path": "/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
-      "genres": [
-        "Sci-Fi",
-        "Horor",
-        "Akční"
-      ],
-      "categories": [
-        "movies_new",
-        "movies_trending",
-        "movies_popular",
-        "movies_action",
-        "movies_scifi",
-        "movies_horror"
-      ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
-    },
-    {
-      "id": 1280115,
-      "media_type": "movie",
-      "title": "Mladý bojovník",
-      "original_title": "Way of the Warrior Kid",
-      "year": 2026,
-      "overview": "Jake je raněný Navy SEAL, který se ujme role mentora svého stydlivého, ztrápeného synovce Marca. Než Marc nastoupí na střední školu, Jake ho pomocí principů z vojenského výcviku učí, jak se stát mladým bojovníkem.",
-      "vote_average": 7.7,
-      "poster_path": "/v0XC0xsvCHsK2ln1iQ488hYwcxd.jpg",
-      "backdrop_path": "/1JL6mDxYRauwv81bLupSZczC39M.jpg",
-      "genres": [
-        "Drama"
-      ],
-      "categories": [
-        "movies_new",
-        "movies_trending"
-      ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
-    },
-    {
-      "id": 1290821,
-      "media_type": "movie",
-      "title": "V úkrytu",
-      "original_title": "Shelter",
-      "year": 2026,
-      "overview": "Michael Mason je bývalý špičkový zabiják, který nyní žije osamělý život v naprosté izolaci na opuštěném ostrově. Jeho jediným osobním kontaktem se světem je dívka, která mu přináší potřebné zásoby. Neočekávaný zvrat v jejich životech nastane, když je zastihne silná bouře. Mason zachrání dívku a tato neočekávaná situace ho přinutí odhalit místo svého úkrytu, které musí opustit. Tím začne série drsných událostí, které ho přinutí čelit své temné minulosti, přijmout svůj osud a převzít zodpovědnost za ochranu života dívky. To má za následek smrt mnoha jejich pronásledovatelů, v čele s tajemným agentem, který sleduje každý jejich pohyb. K Masonovu zděšení je jeho cesta z úkrytu lemována mrtvými nebo v nejlepším případě stonajícími protivníky, kteří se pokusili zabít je.",
-      "vote_average": 7.7,
-      "poster_path": "/axqm8F5wYa1cWGEcH5t8gcfJoY4.jpg",
-      "backdrop_path": "/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
-      "genres": [
-        "Akční",
-        "Krimi",
-        "Thriller"
-      ],
-      "categories": [
-        "movies_thriller"
-      ],
-      "quality": "CZ",
-      "has_cz_dubbing": true
-    },
-    {
-      "id": 292741,
-      "media_type": "tv",
-      "title": "V temnotách",
-      "original_title": "Nocturne",
-      "year": 2026,
-      "overview": "Oběť proslulého sériového vraha Jurka Waltera se nečekaně objeví živá. Detektiv Jonah Lynn závodí s časem, aby našel osobu, která se stále pohřešuje. Jeho chráněnka Saga Bauerová se v přestrojení vydává pro odpovědi přímo od vraha.",
-      "vote_average": 7.7,
-      "poster_path": "/oT6vqrD9mLN2eVftoasBrrDReyc.jpg",
-      "backdrop_path": "/614k6C9doThoMe6GyH0nTnGgLXt.jpg",
-      "genres": [
-        "Krimi",
-        "Drama",
-        "Mysteriózní"
-      ],
-      "categories": [
-        "tv_trending"
-      ],
-      "quality": "CZ",
-      "has_cz_dubbing": true
-    },
-    {
       "id": 414906,
       "media_type": "movie",
       "title": "Batman",
@@ -2504,6 +2542,29 @@
         "tv_trending"
       ],
       "quality": "720p CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 177572,
+      "media_type": "movie",
+      "title": "Velká šestka",
+      "original_title": "Big Hero 6",
+      "year": 2014,
+      "overview": "Velká šestka je emocemi nabité komediální dobrodružství o malém geniálním konstruktérovi robotů jménem Hiro Hamada, který se naučí využívat svůj talent. Pomůže mu v tom jeho neméně nadaný bratr Tadashi a jejich kamarádi: dívka Go Go Tamago, vyhledávající adrenalinové zážitky, čistotou posedlý Wasabi No-Ginger, sličná chemička Honey Lemon a jejich fanda Fred. Když se parta kvůli katastrofální souhře náhod ocitne uprostřed nebezpečné hry, kterou kdosi rozehrál v ulicích San Fransokya, Hiro se obrátí na svého nejbližšího kamaráda – robota jménem Baymax - a přetvoří svou partu přátel na high-tech hrdiny odhodlané vyřešit vzniklou záhadu.",
+      "vote_average": 7.7,
+      "poster_path": "/xfbZhTe53YSgnR21dSqwvFND6Dg.jpg",
+      "backdrop_path": "/4s2d3xdyqotiVNHTlTlJjrr3q0H.jpg",
+      "genres": [
+        "Dobrodružný",
+        "Rodinný",
+        "Animovaný",
+        "Akční",
+        "Komedie"
+      ],
+      "categories": [
+        "movies_animation"
+      ],
+      "quality": "1080p CZ",
       "has_cz_dubbing": true
     },
     {
@@ -2572,27 +2633,6 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 387,
-      "media_type": "tv",
-      "title": "SpongeBob v kalhotách",
-      "original_title": "SpongeBob SquarePants",
-      "year": 1999,
-      "overview": "Příběhy Sponge Boba, malé mořské houby, která žije na dně oceánu a pracuje v tamním fast foodu Krusty Krab. Bydlí v dvoupatrovém ananasu a se svými kolegy a přáteli zažívá bláznivá dobrodružství.",
-      "vote_average": 7.7,
-      "poster_path": "/skZgdh2cBb9PNdTwANYmb0tH3K6.jpg",
-      "backdrop_path": "/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
-      "genres": [
-        "Animovaný",
-        "Komedie",
-        "Rodinný"
-      ],
-      "categories": [
-        "tv_trending"
-      ],
-      "quality": "1080p CZ",
-      "has_cz_dubbing": true
-    },
-    {
       "id": 10020,
       "media_type": "movie",
       "title": "Kráska a zvíře",
@@ -2610,6 +2650,27 @@
       ],
       "categories": [
         "movies_animation"
+      ],
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 578,
+      "media_type": "movie",
+      "title": "Čelisti",
+      "original_title": "Jaws",
+      "year": 1975,
+      "overview": "Písečné pláže, modré moře a zářivé nebe vítají návštěvníky rekreačního města Amity. Nikdo netuší, že pod hladinou někde čeká obrovský bílý žralok. Brzy si nalezne první oběť, posléze další a další. Zástupci města se zprvu vše snaží utajit, nakonec s napětím čekají, až se objeví někdo, kdo obrovského žraloka zabije. Na moře vyplouvají tři muži, ichtyolog Hooper, lovec žraloků Quint a šéf místní policie Brody, aby zkusili své štěstí...",
+      "vote_average": 7.7,
+      "poster_path": "/yTGrQ18KUWrQMaoIA48krACZWDX.jpg",
+      "backdrop_path": "/i1yf91svRHX45l9BXL8rVFzLoPH.jpg",
+      "genres": [
+        "Horor",
+        "Thriller",
+        "Dobrodružný"
+      ],
+      "categories": [
+        "movies_horror"
       ],
       "quality": "1080p CZ",
       "has_cz_dubbing": true
@@ -2634,6 +2695,31 @@
       ],
       "quality": "1080p CZ",
       "has_cz_dubbing": true
+    },
+    {
+      "id": 1496696,
+      "media_type": "movie",
+      "title": "Breeder",
+      "original_title": "Breeder",
+      "year": 2026,
+      "overview": "",
+      "vote_average": 7.6,
+      "poster_path": "/alsb3UC17kxIcytLWvwkmL0STgU.jpg",
+      "backdrop_path": "/l5gJE9xW1FFtub3gUezh1PjBbY5.jpg",
+      "genres": [
+        "Horor",
+        "Thriller"
+      ],
+      "categories": [
+        "movies_new",
+        "movies_trending",
+        "movies_popular",
+        "movies_online",
+        "movies_thriller",
+        "movies_horror"
+      ],
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 1288445,
@@ -2661,6 +2747,57 @@
       "has_cz_dubbing": true
     },
     {
+      "id": 1195803,
+      "media_type": "movie",
+      "title": "Wicker",
+      "original_title": "Wicker",
+      "year": 2026,
+      "overview": "Proutěný manžel dělá dřevěné pomyšlení osamělé rybářce.",
+      "vote_average": 7.6,
+      "poster_path": "/5sVi66aTT9X2uMldmIwu9JW3hZ2.jpg",
+      "backdrop_path": "/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg",
+      "genres": [
+        "Romantický",
+        "Fantasy",
+        "Komedie"
+      ],
+      "categories": [
+        "movies_new",
+        "movies_trending",
+        "movies_popular",
+        "movies_online",
+        "movies_comedy"
+      ],
+      "quality": "4K",
+      "has_cz_dubbing": false
+    },
+    {
+      "id": 1381071,
+      "media_type": "movie",
+      "title": "Godzilla Minus Zero",
+      "original_title": "ゴジラ-0.0",
+      "year": 2026,
+      "overview": "",
+      "vote_average": 7.6,
+      "poster_path": "/zpcoFlZwyLnBt7bb5wmvGDCdg06.jpg",
+      "backdrop_path": "/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
+      "genres": [
+        "Sci-Fi",
+        "Horor",
+        "Akční"
+      ],
+      "categories": [
+        "movies_new",
+        "movies_trending",
+        "movies_popular",
+        "movies_action",
+        "movies_scifi",
+        "movies_horror"
+      ],
+      "quality": "1080p",
+      "has_cz_dubbing": false
+    },
+    {
       "id": 1596275,
       "media_type": "movie",
       "title": "Šance závodit",
@@ -2684,23 +2821,45 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 1757324,
+      "id": 1280115,
       "media_type": "movie",
-      "title": "Insecta",
-      "original_title": "Insecta",
+      "title": "Mladý bojovník",
+      "original_title": "Way of the Warrior Kid",
       "year": 2026,
-      "overview": "",
+      "overview": "Jake je raněný Navy SEAL, který se ujme role mentora svého stydlivého, ztrápeného synovce Marca. Než Marc nastoupí na střední školu, Jake ho pomocí principů z vojenského výcviku učí, jak se stát mladým bojovníkem.",
       "vote_average": 7.6,
-      "poster_path": "/3FzjY7P79R5sb3hCQUWEy7MT6Fs.jpg",
-      "backdrop_path": "/9RrHsR3lIIdxN0GY0luzu3h3cRS.jpg",
+      "poster_path": "/v0XC0xsvCHsK2ln1iQ488hYwcxd.jpg",
+      "backdrop_path": "/vOByLZRhCIIItlSlCT7bYbI9MYL.jpg",
       "genres": [
-        "Horor"
+        "Drama"
       ],
       "categories": [
-        "movies_horror"
+        "movies_new",
+        "movies_trending"
       ],
       "quality": "1080p",
       "has_cz_dubbing": false
+    },
+    {
+      "id": 292741,
+      "media_type": "tv",
+      "title": "V temnotách",
+      "original_title": "Nocturne",
+      "year": 2026,
+      "overview": "Oběť proslulého sériového vraha Jurka Waltera se nečekaně objeví živá. Detektiv Jonah Lynn závodí s časem, aby našel osobu, která se stále pohřešuje. Jeho chráněnka Saga Bauerová se v přestrojení vydává pro odpovědi přímo od vraha.",
+      "vote_average": 7.6,
+      "poster_path": "/oT6vqrD9mLN2eVftoasBrrDReyc.jpg",
+      "backdrop_path": "/614k6C9doThoMe6GyH0nTnGgLXt.jpg",
+      "genres": [
+        "Krimi",
+        "Drama",
+        "Mysteriózní"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 83533,
@@ -2831,27 +2990,6 @@
         "movies_horror"
       ],
       "quality": "1080p CZ",
-      "has_cz_dubbing": true
-    },
-    {
-      "id": 293660,
-      "media_type": "movie",
-      "title": "Deadpool",
-      "original_title": "Deadpool",
-      "year": 2016,
-      "overview": "Než se stal Deadpoolem, byl Wadem Wilsonem, bývalým členem speciálních jednotek. Když mu lékaři diagnostikovali pokročilé stadium rakoviny, podrobil se experimentální léčbě v rámci programu Weapon X, známého a populárního především mezi x-menovskými mutanty. Díky tomu se Wade zbavil rakoviny, a nejenže zůstal naživu, ale také jako bonus získal schopnost rychlého samouzdravování. Bohužel však – například oproti Wolverinovi, který po podobné léčbě zůstal celkem sexy – z tohoto pokusu vyšel trvale znetvořený. Vypadá dle vlastních slov jako „avokádo, které mělo sex se starším avokádem“. I proto celkem bez většího odporu přijal okostýmované alter ego jménem Deadpool.",
-      "vote_average": 7.6,
-      "poster_path": "/2VFhMD3UOG7kPVVkdv5bCzLjQe5.jpg",
-      "backdrop_path": "/rFj9IKlL75B2pXhZA60jkNWvxeW.jpg",
-      "genres": [
-        "Akční",
-        "Dobrodružný",
-        "Komedie"
-      ],
-      "categories": [
-        "movies_comedy"
-      ],
-      "quality": "4K CZ",
       "has_cz_dubbing": true
     },
     {
@@ -2998,7 +3136,6 @@
       ],
       "categories": [
         "movies_new",
-        "movies_trending",
         "movies_popular",
         "movies_online",
         "movies_scifi",
@@ -3031,51 +3168,27 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 1195803,
+      "id": 1458300,
       "media_type": "movie",
-      "title": "Wicker",
-      "original_title": "Wicker",
+      "title": "Komáří pohár",
+      "original_title": "The Mosquito Bowl",
       "year": 2026,
-      "overview": "Proutěný manžel dělá dřevěné pomyšlení osamělé rybářce.",
+      "overview": "Po japonském útoku na Pearl Harbor narukují čtyři hvězdy amerického fotbalu k mariňákům. V jejich řadách pak objeví sílu bratrství a zjistí, jakou daň si vybírá válka.",
       "vote_average": 7.5,
-      "poster_path": "/6FcBZOKvyrLCKGCyBG0ySCR4okt.jpg",
-      "backdrop_path": "/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg",
+      "poster_path": "/uxYs0bNTF4XzM8LThJk2x3AJ0Iv.jpg",
+      "backdrop_path": "/rtrWdS4UrhqnH9wNEWOgrMBsmSa.jpg",
       "genres": [
-        "Romantický",
-        "Fantasy",
-        "Komedie"
+        "Válečný",
+        "Drama"
       ],
       "categories": [
         "movies_new",
         "movies_trending",
-        "movies_online",
-        "movies_comedy"
+        "movies_popular",
+        "movies_online"
       ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
-    },
-    {
-      "id": 1148365,
-      "media_type": "movie",
-      "title": "Matchbox the Movie",
-      "original_title": "Matchbox the Movie",
-      "year": 2026,
-      "overview": "Když se parta kamarádů z dětství dá po čase znovu dohromady, jejich setkání nabere šokující obrat. Náhodou odhalí nebezpečné mezinárodní spiknutí a je na nich, aby zachránili svět.",
-      "vote_average": 7.5,
-      "poster_path": "/aHhHRz6nOpwkqJs5ASeRGAdK2dt.jpg",
-      "backdrop_path": "/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
-      "genres": [
-        "Akční",
-        "Komedie",
-        "Dobrodružný"
-      ],
-      "categories": [
-        "movies_new",
-        "movies_action",
-        "movies_comedy"
-      ],
-      "quality": "4K",
-      "has_cz_dubbing": false
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1315772,
@@ -3103,6 +3216,29 @@
       "has_cz_dubbing": true
     },
     {
+      "id": 1148365,
+      "media_type": "movie",
+      "title": "Matchbox the Movie",
+      "original_title": "Matchbox the Movie",
+      "year": 2026,
+      "overview": "Když se parta kamarádů z dětství dá po čase znovu dohromady, jejich setkání nabere šokující obrat. Náhodou odhalí nebezpečné mezinárodní spiknutí a je na nich, aby zachránili svět.",
+      "vote_average": 7.5,
+      "poster_path": "/aHhHRz6nOpwkqJs5ASeRGAdK2dt.jpg",
+      "backdrop_path": "/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
+      "genres": [
+        "Akční",
+        "Komedie",
+        "Dobrodružný"
+      ],
+      "categories": [
+        "movies_new",
+        "movies_action",
+        "movies_comedy"
+      ],
+      "quality": "4K",
+      "has_cz_dubbing": false
+    },
+    {
       "id": 1561834,
       "media_type": "movie",
       "title": "Poslední večeře",
@@ -3123,65 +3259,23 @@
       "has_cz_dubbing": false
     },
     {
-      "id": 1122573,
+      "id": 1757324,
       "media_type": "movie",
-      "title": "Šedá zóna",
-      "original_title": "In the Grey",
+      "title": "Insecta",
+      "original_title": "Insecta",
       "year": 2026,
-      "overview": "Dvojice elitních specialistů na tajné operace pracuje na hraně mezi zákonem a zločinem. Jejich úkolem je zajistit bezpečný únik pro vysoce postavenou vyjednavačku během nebezpečné mezinárodní mise. Operace se však rychle zkomplikuje a promění v riskantní hru plnou intrik, zrady a boje o přežití, kde každé špatné rozhodnutí může znamenat katastrofu.",
+      "overview": "",
       "vote_average": 7.5,
-      "poster_path": "/k9OwTiZUMXSHYvuFiHb94RTCdrn.jpg",
-      "backdrop_path": "/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
+      "poster_path": "/3FzjY7P79R5sb3hCQUWEy7MT6Fs.jpg",
+      "backdrop_path": "/9RrHsR3lIIdxN0GY0luzu3h3cRS.jpg",
       "genres": [
-        "Akční",
-        "Krimi"
+        "Horor"
       ],
       "categories": [
-        "movies_trending"
-      ],
-      "quality": "CZ",
-      "has_cz_dubbing": true
-    },
-    {
-      "id": 1248832,
-      "media_type": "movie",
-      "title": "Digger",
-      "original_title": "Digger",
-      "year": 2026,
-      "overview": "Nejmocnější muž světa se vydává na zběsilou misi, aby dokázal, že je spasitelem lidstva, než katastrofa, kterou způsobil, zničí vše.",
-      "vote_average": 7.5,
-      "poster_path": "/qiXi6tAv8DoNfPf56G4yljjWhqG.jpg",
-      "backdrop_path": "/4A3r1AjJg9Wa6ms3MGOScetCY0o.jpg",
-      "genres": [
-        "Komedie",
-        "Drama"
-      ],
-      "categories": [
-        "movies_comedy"
+        "movies_horror"
       ],
       "quality": "1080p",
       "has_cz_dubbing": false
-    },
-    {
-      "id": 1265609,
-      "media_type": "movie",
-      "title": "Válečné monstrum",
-      "original_title": "War Machine",
-      "year": 2026,
-      "overview": "Na poslední misi náročného výcviku musí velitel v čele svojí jednotky vytáhnout do boje proti obrovskému vražednému stroji z jiného světa.",
-      "vote_average": 7.5,
-      "poster_path": "/ovs33wfV7rV3B9JYu4o2BQW1mgk.jpg",
-      "backdrop_path": "/6yeVcxFR0j08vlv2OlL6zbewm4D.jpg",
-      "genres": [
-        "Akční",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "categories": [
-        "movies_scifi"
-      ],
-      "quality": "4K CZ",
-      "has_cz_dubbing": true
     },
     {
       "id": 1212763,
@@ -3201,26 +3295,6 @@
       ],
       "quality": "1080p CZ",
       "has_cz_dubbing": true
-    },
-    {
-      "id": 335981,
-      "media_type": "tv",
-      "title": "Cunk on Cinema",
-      "original_title": "Cunk on Cinema",
-      "year": 2026,
-      "overview": "Potměšilá série fiktivních dokumentů, ve které Philomena Cunk vyrazí na výpravu filmovou historií. A cestou pěkně zamotá hlavu odborníkům na kinematografii.",
-      "vote_average": 7.5,
-      "poster_path": "/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
-      "backdrop_path": "/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
-      "genres": [
-        "Komedie",
-        "Dokumentární"
-      ],
-      "categories": [
-        "tv_trending"
-      ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
     },
     {
       "id": 1233413,
@@ -3260,6 +3334,7 @@
         "Rodinný"
       ],
       "categories": [
+        "movies_comedy",
         "movies_animation"
       ],
       "quality": "SD CZ",
@@ -3308,6 +3383,28 @@
       "has_cz_dubbing": true
     },
     {
+      "id": 1275779,
+      "media_type": "movie",
+      "title": "Den odhalení",
+      "original_title": "Disclosure Day",
+      "year": 2026,
+      "overview": "Datový analytik Daniel ukradl svým zaměstnavatelům přísně tajné dokumenty, neboť je přesvědčen, že lidstvo má právo dozvědět se pravdu. Vládní organizace Wardex mu teď pochopitelně jde po krku. Televizní rosnička Margaret nemá o ničem z toho ani potuchy. Míří do práce jako každý den a doufá, že zpoždění, které nabrala, neohrozí její povýšení. Zjišťuje však, že něco je jinak. Hovoří jazyky, které se nikdy neučila, a ví velmi osobní věci ○ zcela neznámých lidech. Osudy Daniela a Margaret se již brzy mají protnout.",
+      "vote_average": 7.4,
+      "poster_path": "/wVvRf7Yk1n27o2dsrwswdHWXqzV.jpg",
+      "backdrop_path": "/1e0KDRYKRPHiVNj8yQKYuU2jVyQ.jpg",
+      "genres": [
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "categories": [
+        "movies_new",
+        "movies_scifi",
+        "movies_thriller"
+      ],
+      "quality": "CZ",
+      "has_cz_dubbing": true
+    },
+    {
       "id": 1400940,
       "media_type": "movie",
       "title": "Clayface",
@@ -3333,28 +3430,6 @@
       "has_cz_dubbing": false
     },
     {
-      "id": 1275779,
-      "media_type": "movie",
-      "title": "Den odhalení",
-      "original_title": "Disclosure Day",
-      "year": 2026,
-      "overview": "Datový analytik Daniel ukradl svým zaměstnavatelům přísně tajné dokumenty, neboť je přesvědčen, že lidstvo má právo dozvědět se pravdu. Vládní organizace Wardex mu teď pochopitelně jde po krku. Televizní rosnička Margaret nemá o ničem z toho ani potuchy. Míří do práce jako každý den a doufá, že zpoždění, které nabrala, neohrozí její povýšení. Zjišťuje však, že něco je jinak. Hovoří jazyky, které se nikdy neučila, a ví velmi osobní věci ○ zcela neznámých lidech. Osudy Daniela a Margaret se již brzy mají protnout.",
-      "vote_average": 7.4,
-      "poster_path": "/wVvRf7Yk1n27o2dsrwswdHWXqzV.jpg",
-      "backdrop_path": "/1e0KDRYKRPHiVNj8yQKYuU2jVyQ.jpg",
-      "genres": [
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "categories": [
-        "movies_new",
-        "movies_scifi",
-        "movies_thriller"
-      ],
-      "quality": "CZ",
-      "has_cz_dubbing": true
-    },
-    {
       "id": 1228710,
       "media_type": "movie",
       "title": "Star Wars: Mandalorian a Grogu",
@@ -3373,6 +3448,47 @@
         "movies_scifi"
       ],
       "quality": "CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 218347,
+      "media_type": "tv",
+      "title": "Sweetpea",
+      "original_title": "Sweetpea",
+      "year": 2024,
+      "overview": "Rhiannon Lewisová nedělá příliš velký dojem - lidé kolem ní na ulici procházejí bez jediného pohledu. Tedy až do chvíle, kdy se ocitne na hraně a přestane se ovládat. Rhiannonin život se promění, ale dokáže udržet vražedné tajemství?",
+      "vote_average": 7.4,
+      "poster_path": "/feoDYCy0AUD031gLqBmA9gC4pw1.jpg",
+      "backdrop_path": "/xE8SLBIwNQ1kkCz45XDaPYzv0wz.jpg",
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "720p",
+      "has_cz_dubbing": false
+    },
+    {
+      "id": 447332,
+      "media_type": "movie",
+      "title": "Tiché místo",
+      "original_title": "A Quiet Place",
+      "year": 2018,
+      "overview": "Lee a Evelyn Abbottovi vychovávají tři děti. Všichni jsou zatím naživu. Velmi rychle si totiž osvojili pravidla, která začala platit po Jejich příchodu na Zemi. Kdo jsou ti Oni? Nikdo neví. Ví se jen to, že mají mimořádně vyvinutý sluch a každičký zvuk přiláká jejich pozornost. A jejich pozornost pro lidi znamená jistou smrt, což záhy na vlastní kůži poznají i Abbottovi. Ti dosud jako jedni z mála přežívali i díky tomu, že je jejich nejstarší dcera Regan neslyšící, a tak pro ně byla znalost znakové řeči absolutní nutností i v „normálních dobách“. Kromě toho vyvinuli na odlehlé farmě, kde žijí, celou řadu bezpečnostních opatření, jež je mají chránit, počínaje zvukově izolovaným sklepem a konče molitanem obalenými kostkami k Monopolům. Bude to ale k bezpečí stačit? Takový život totiž připomíná tanec v minovém poli a čekání na jednu jedinou, leč osudovou chybu. Evelyn je navíc těhotná a termín porodu se kvapem blíží. A některé životní události se bez křiku jednoduše neobejdou.",
+      "vote_average": 7.4,
+      "poster_path": "/kbOZwTdaADOMJqzfsfub6io42SN.jpg",
+      "backdrop_path": "/nHRUtBwFNnNN70vcQ7lAsjc2T6S.jpg",
+      "genres": [
+        "Horor",
+        "Drama",
+        "Sci-Fi"
+      ],
+      "categories": [
+        "movies_horror"
+      ],
+      "quality": "1080p CZ",
       "has_cz_dubbing": true
     },
     {
@@ -3461,6 +3577,26 @@
       "has_cz_dubbing": false
     },
     {
+      "id": 350,
+      "media_type": "movie",
+      "title": "Ďábel nosí Pradu",
+      "original_title": "The Devil Wears Prada",
+      "year": 2006,
+      "overview": "V závratném světě newyorské módy, kde nepovedený účes může zabít celou vaši kariéru, je časopis Runway vysněným Olympem všech, kdo se jen trochu zajímají o svůj vzhled. Pod vedením nejmocnější ženy módního průmyslu Mirandy Priestly, která mu vládne tvrdou rukou s dokonale pěstěnými nehty, je Runway obávaným testem, kterým musí projít každý, kdo chce v tomto světě něco znamenat. Při plnění svého poslání – učinit z Runway módní bibli New Yorku, a tedy zároveň celého světa – nepřipustí, aby jí cokoliv stálo v cestě… včetně dlouhé řady asistentek, které nesplnily její očekávání. Je to práce, ve které nemůže vydržet nikdo, kdo má alespoň špetku sebeúcty – ale zároveň místo, pro něž by milióny mladých Newyorčanek dokázaly zabít.",
+      "vote_average": 7.4,
+      "poster_path": "/64etxdCZEAdqYlayWvhXiIveqzo.jpg",
+      "backdrop_path": "/gkh6Nt8DtY1XT4gQsyFq9XAVJlJ.jpg",
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "categories": [
+        "movies_comedy"
+      ],
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
+    },
+    {
       "id": 2691,
       "media_type": "tv",
       "title": "Dva a půl chlapa",
@@ -3523,31 +3659,6 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 1496696,
-      "media_type": "movie",
-      "title": "Breeder",
-      "original_title": "Breeder",
-      "year": 2026,
-      "overview": "",
-      "vote_average": 7.3,
-      "poster_path": "/alsb3UC17kxIcytLWvwkmL0STgU.jpg",
-      "backdrop_path": "/l5gJE9xW1FFtub3gUezh1PjBbY5.jpg",
-      "genres": [
-        "Horor",
-        "Thriller"
-      ],
-      "categories": [
-        "movies_new",
-        "movies_trending",
-        "movies_popular",
-        "movies_online",
-        "movies_thriller",
-        "movies_horror"
-      ],
-      "quality": "4K",
-      "has_cz_dubbing": false
-    },
-    {
       "id": 1401459,
       "media_type": "movie",
       "title": "Fjord",
@@ -3584,27 +3695,6 @@
       ],
       "quality": "1080p CZ",
       "has_cz_dubbing": true
-    },
-    {
-      "id": 275139,
-      "media_type": "tv",
-      "title": "Phony",
-      "original_title": "Phony",
-      "year": 2026,
-      "overview": "Poté, co se Sonny probral po podivné autonehodě, zjistil, že jeho matku nahradila podvodnice.",
-      "vote_average": 7.3,
-      "poster_path": "/iCyQc8cSSHkxUHbkvzbC77owALt.jpg",
-      "backdrop_path": "/roUD5m2nj6k88azMFsiqBae29cr.jpg",
-      "genres": [
-        "Komedie",
-        "Drama",
-        "Mysteriózní"
-      ],
-      "categories": [
-        "tv_trending"
-      ],
-      "quality": "4K",
-      "has_cz_dubbing": false
     },
     {
       "id": 986056,
@@ -3713,6 +3803,26 @@
       "has_cz_dubbing": true
     },
     {
+      "id": 248830,
+      "media_type": "tv",
+      "title": "Druhá šance na greenu",
+      "original_title": "Stick",
+      "year": 2025,
+      "overview": "Pryce Cahill kdysi mířil mezi golfové legendy, jenže jeho kariéru zničil výlev vzteku na hřišti. Sotva se drží nad vodou, ale všechny naděje vloží do Santiho, talentovaného chlapce s obřím potenciálem.",
+      "vote_average": 7.3,
+      "poster_path": "/1yQoJgfhvUsVLo59iTNa897M5lV.jpg",
+      "backdrop_path": "/2Bt2uXrIOQASBAsni2AGGqCCF14.jpg",
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "4K",
+      "has_cz_dubbing": false
+    },
+    {
       "id": 103540,
       "media_type": "tv",
       "title": "Percy Jackson a Olympané",
@@ -3755,6 +3865,27 @@
       ],
       "quality": "1080p CZ",
       "has_cz_dubbing": true
+    },
+    {
+      "id": 493922,
+      "media_type": "movie",
+      "title": "Děsivé dědictví",
+      "original_title": "Hereditary",
+      "year": 2018,
+      "overview": "Když zemře Ellen, matriarcha rodu Grahamů, začíná rodina její dcery rozplétat záhadná a čím dál tím děsivější tajemství svých předků. S přibývajícími odhaleními se čím dál více snaží překonat svůj neblahý osud, který zřejmě pronásleduje celý jejich rod a pomalu ničí vše, co znají.",
+      "vote_average": 7.3,
+      "poster_path": "/rHJSCdv4Ir3peCYjuW0Ins4NuQE.jpg",
+      "backdrop_path": "/pS9Aub8MPyQbENblGD8mHeaqMuv.jpg",
+      "genres": [
+        "Horor",
+        "Mysteriózní",
+        "Thriller"
+      ],
+      "categories": [
+        "movies_horror"
+      ],
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 315635,
@@ -3840,18 +3971,44 @@
       "has_cz_dubbing": false
     },
     {
-      "id": 1568060,
+      "id": 1595124,
       "media_type": "movie",
-      "title": "Dokonalí lháři",
-      "original_title": "Perfectos mentirosos",
+      "title": "Neségry",
+      "original_title": "Steps",
       "year": 2026,
-      "overview": "Jude Derryová přichází na prestižní univerzitu Tagus s tajnou misí: infiltrovat se mezi bratry Cashovy a odhalit pravdu o tom, jak zemřel její vlastní bratr. Jenže snaha o pomstu vyústí v milostný trojúhelník, zakázanou touhu a lži. Jak se Jude blíží odhalení pravdy, zjišťuje, že na ni možná není připravená.",
+      "overview": "Nádherně svérázná akční komedie, ve které Popelčina zlá nevlastní sestra Lilith ukradne víle Kmotřičce kouzelnou hůlku a převrátí tak známý příběh vzhůru nohama.",
       "vote_average": 7.2,
-      "poster_path": "/1amYmUeoBi23kGcR2pWQclEzXk2.jpg",
-      "backdrop_path": "/qKFLZz7rnZAJuyZ9HVEhwIINftz.jpg",
+      "poster_path": "/fCeU1oz3NC45UD5sAyXUnVPtC9a.jpg",
+      "backdrop_path": "/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
       "genres": [
-        "Drama",
-        "Romantický",
+        "Animovaný",
+        "Rodinný",
+        "Komedie",
+        "Dobrodružný",
+        "Fantasy"
+      ],
+      "categories": [
+        "movies_new",
+        "movies_trending",
+        "movies_popular",
+        "movies_online",
+        "movies_comedy",
+        "movies_animation"
+      ],
+      "quality": "SD CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 1101412,
+      "media_type": "movie",
+      "title": "Na hraně smrti 2: Deadpoint",
+      "original_title": "Fall 2: Deadpoint",
+      "year": 2026,
+      "overview": "Po tragické ztrátě sestry Hunter se Jax rozhodne čelit svému strachu a vydá se s její bývalou přítelkyní na nebezpečný výstup, který má uctít památku Hunter. Zatímco se jako na laně pohybují po nebezpečných prknech hory Kwan, uvězní je děsivý sesuv kamení 1 524 metrů nad zemí. Tváří v tvář scénám vyvolávajícím závratě, temným pravdám a krutým zvratům musí Jax čelit svým nejhlubším strachům, aby bojovala o přežití a našla vnitřní smíření.",
+      "vote_average": 7.2,
+      "poster_path": "/1vjyCupsnr2qI8LAgvL3QwpbjIa.jpg",
+      "backdrop_path": "/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg",
+      "genres": [
         "Thriller"
       ],
       "categories": [
@@ -3861,8 +4018,8 @@
         "movies_online",
         "movies_thriller"
       ],
-      "quality": "SD CZ",
-      "has_cz_dubbing": true
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 1384216,
@@ -3890,6 +4047,28 @@
       ],
       "quality": "CZ",
       "has_cz_dubbing": true
+    },
+    {
+      "id": 1084409,
+      "media_type": "movie",
+      "title": "A Talent for Murder",
+      "original_title": "A Talent for Murder",
+      "year": 2026,
+      "overview": "",
+      "vote_average": 7.2,
+      "poster_path": "/eaPfmH83P4yf4gyaWFD4FvvdOcM.jpg",
+      "backdrop_path": "/b3EGc5Ucj7wIeUjFc64Wq4IYgkp.jpg",
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Krimi"
+      ],
+      "categories": [
+        "movies_trending",
+        "movies_thriller"
+      ],
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 1483525,
@@ -3929,46 +4108,6 @@
         "movies_comedy"
       ],
       "quality": "1080p CZ",
-      "has_cz_dubbing": true
-    },
-    {
-      "id": 340280,
-      "media_type": "tv",
-      "title": "Gordon",
-      "original_title": "Gordon",
-      "year": 2026,
-      "overview": "Aníbal Gordon se v Argentině 70. let vypracoval z drobného zloděje až na odsouzeného vraha.",
-      "vote_average": 7.2,
-      "poster_path": "/yLgl70D5Up0MlvBWP2MJTLAbFAF.jpg",
-      "backdrop_path": "/o8wVY0c4v54KsFQ5IdU2uvOves1.jpg",
-      "genres": [
-        "Drama",
-        "Krimi"
-      ],
-      "categories": [
-        "tv_trending"
-      ],
-      "quality": "CZ",
-      "has_cz_dubbing": true
-    },
-    {
-      "id": 945961,
-      "media_type": "movie",
-      "title": "Vetřelec: Romulus",
-      "original_title": "Alien: Romulus",
-      "year": 2024,
-      "overview": "Při prohledávání opuštěné vesmírné stanice se skupina mladých kolonizátorů setká s nejneúprosnější a nejsmrtonosnější formou života ve vesmíru. A v hlubokém vesmíru nikdo neslyší jejich křik.",
-      "vote_average": 7.2,
-      "poster_path": "/9bHvsoszDIzkqRA99IteUern5QT.jpg",
-      "backdrop_path": "/iYqSQaWDttQIQzsxg9xHyg0bttG.jpg",
-      "genres": [
-        "Horor",
-        "Sci-Fi"
-      ],
-      "categories": [
-        "movies_horror"
-      ],
-      "quality": "720p CZ",
       "has_cz_dubbing": true
     },
     {
@@ -4062,29 +4201,26 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 1595124,
+      "id": 1568060,
       "media_type": "movie",
-      "title": "Neségry",
-      "original_title": "Steps",
+      "title": "Dokonalí lháři",
+      "original_title": "Perfectos mentirosos",
       "year": 2026,
-      "overview": "Nádherně svérázná akční komedie, ve které Popelčina zlá nevlastní sestra Lilith ukradne víle Kmotřičce kouzelnou hůlku a převrátí tak známý příběh vzhůru nohama.",
+      "overview": "Jude Derryová přichází na prestižní univerzitu Tagus s tajnou misí: infiltrovat se mezi bratry Cashovy a odhalit pravdu o tom, jak zemřel její vlastní bratr. Jenže snaha o pomstu vyústí v milostný trojúhelník, zakázanou touhu a lži. Jak se Jude blíží odhalení pravdy, zjišťuje, že na ni možná není připravená.",
       "vote_average": 7.1,
-      "poster_path": "/fCeU1oz3NC45UD5sAyXUnVPtC9a.jpg",
-      "backdrop_path": "/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+      "poster_path": "/1amYmUeoBi23kGcR2pWQclEzXk2.jpg",
+      "backdrop_path": "/qKFLZz7rnZAJuyZ9HVEhwIINftz.jpg",
       "genres": [
-        "Animovaný",
-        "Rodinný",
-        "Komedie",
-        "Dobrodružný",
-        "Fantasy"
+        "Drama",
+        "Romantický",
+        "Thriller"
       ],
       "categories": [
         "movies_new",
         "movies_trending",
         "movies_popular",
         "movies_online",
-        "movies_comedy",
-        "movies_animation"
+        "movies_thriller"
       ],
       "quality": "SD CZ",
       "has_cz_dubbing": true
@@ -4126,10 +4262,31 @@
         "Drama"
       ],
       "categories": [
+        "movies_new",
         "movies_comedy"
       ],
       "quality": "1080p",
       "has_cz_dubbing": false
+    },
+    {
+      "id": 340280,
+      "media_type": "tv",
+      "title": "Gordon",
+      "original_title": "Gordon",
+      "year": 2026,
+      "overview": "Aníbal Gordon se v Argentině 70. let vypracoval z drobného zloděje až na odsouzeného vraha.",
+      "vote_average": 7.1,
+      "poster_path": "/yLgl70D5Up0MlvBWP2MJTLAbFAF.jpg",
+      "backdrop_path": "/o8wVY0c4v54KsFQ5IdU2uvOves1.jpg",
+      "genres": [
+        "Drama",
+        "Krimi"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 933260,
@@ -4152,34 +4309,31 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 1616687,
-      "media_type": "movie",
-      "title": "Nikdy se nevzdávej",
-      "original_title": "Serangan Balik",
-      "year": 2026,
-      "overview": "Utrápený veterán žije na odlehlém místě s vnoučaty, které sotva zná. Jestli ale chtějí přežít útok nebezpečného gangu, musí všichni táhnout za jeden provaz.",
-      "vote_average": 7.0,
-      "poster_path": "/9wypfSz5OyWnew6mt5hviGw6WhM.jpg",
-      "backdrop_path": "/bjt53Hjqwl9VrtJkDv39GwmE1QN.jpg",
+      "id": 225385,
+      "media_type": "tv",
+      "title": "Černá holubice",
+      "original_title": "Black Doves",
+      "year": 2024,
+      "overview": "Špiónka v utajení vystupuje jako manželka známého politika. Jejího milence ale někdo zavraždí a ona se rozhodne odhalit s pomocí nájemného zabijáka pravdu. A pomstít se.",
+      "vote_average": 7.1,
+      "poster_path": "/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
+      "backdrop_path": "/uyL0MH8gtDlChQKpfpkVoUP41VY.jpg",
       "genres": [
-        "Akční",
-        "Krimi",
-        "Thriller"
+        "Akční a dobrodružný",
+        "Drama",
+        "Mysteriózní",
+        "Krimi"
       ],
       "categories": [
-        "movies_new",
-        "movies_popular",
-        "movies_online",
-        "movies_action",
-        "movies_thriller"
+        "tv_trending"
       ],
-      "quality": "SD CZ",
+      "quality": "CZ",
       "has_cz_dubbing": true
     },
     {
       "id": 1281331,
       "media_type": "movie",
-      "title": "The Social Reckoning",
+      "title": "V zajetí sítí",
       "original_title": "The Social Reckoning",
       "year": 2026,
       "overview": "Bývalá produktová manažerka Facebooku Frances Haugen se rozhodne usvědčit vlastní společnost z upřednostňování zisku před bezpečností a zdravím svých uživatelů. Když zjistí, jak algoritmy platformy záměrně podporují dezinformace, nenávistný projev a mají devastační vliv na duševní zdraví mladistvých, tajně vynese desetitisíce stran interních dokumentů.",
@@ -4197,7 +4351,7 @@
         "movies_online",
         "movies_thriller"
       ],
-      "quality": "4K",
+      "quality": "1080p",
       "has_cz_dubbing": false
     },
     {
@@ -4216,7 +4370,6 @@
       ],
       "categories": [
         "movies_new",
-        "movies_trending",
         "movies_popular",
         "movies_online",
         "movies_thriller"
@@ -4266,33 +4419,31 @@
       ],
       "categories": [
         "movies_trending",
-        "movies_thriller",
         "movies_horror"
       ],
       "quality": "1080p",
       "has_cz_dubbing": false
     },
     {
-      "id": 1084409,
-      "media_type": "movie",
-      "title": "A Talent for Murder",
-      "original_title": "A Talent for Murder",
+      "id": 314360,
+      "media_type": "tv",
+      "title": "Jaga",
+      "original_title": "YAGA",
       "year": 2026,
-      "overview": "",
+      "overview": "Soukromý detektiv Charlie Rapp přijíždí do malého pobřežního městečka, aby vyšetřil zmizení Henryho Parka, mladého dědice mocné rybářské společnosti. Ocitá se v konfliktu s obezřetnou místní detektivkou Carson, charismatickou univerzitní profesorkou s vášní pro mladší muže, Katherine, a labyrintem záhadných podezřelých, tajných životů a starodávné magie.",
       "vote_average": 7.0,
-      "poster_path": "/oKsS2mUf87ClNjrruq8s0aXrDSb.jpg",
-      "backdrop_path": "/b3EGc5Ucj7wIeUjFc64Wq4IYgkp.jpg",
+      "poster_path": "/kp8xgZ8SrikHQrPn2lC3hb50KD5.jpg",
+      "backdrop_path": "/owhTL4n2r9ryfxyYlhHKt97ogVk.jpg",
       "genres": [
-        "Thriller",
         "Drama",
-        "Krimi"
+        "Sci-Fi a Fantasy",
+        "Mysteriózní"
       ],
       "categories": [
-        "movies_trending",
-        "movies_thriller"
+        "tv_trending"
       ],
-      "quality": "4K",
-      "has_cz_dubbing": false
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 574475,
@@ -4313,6 +4464,93 @@
       ],
       "quality": "4K CZ",
       "has_cz_dubbing": true
+    },
+    {
+      "id": 244447,
+      "media_type": "tv",
+      "title": "The Hunting Wives",
+      "original_title": "The Hunting Wives",
+      "year": 2025,
+      "overview": "Sophie O'Neil se přestěhuje daleko do východního Texasu a zde podlehne kouzlu prominentní Margo. Její život brzy pohltí posedlost, svádění a vražda.",
+      "vote_average": 7.0,
+      "poster_path": "/iKL02GmejLCGBJr7XHU82vvqA1C.jpg",
+      "backdrop_path": "/6PerjrTmwTNiRcfn0SpjU8N9Nio.jpg",
+      "genres": [
+        "Drama",
+        "Mysteriózní"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "720p",
+      "has_cz_dubbing": false
+    },
+    {
+      "id": 273247,
+      "media_type": "tv",
+      "title": "Ničemové",
+      "original_title": "The Lowdown",
+      "year": 2025,
+      "overview": "Novinář Lee Raybon je posedlý pravdou. Snaha pravdu neustále odhalovat ho nejednou dostane do pořádných potíží.",
+      "vote_average": 7.0,
+      "poster_path": "/jgfHT7oLJtBDlRABiTTEp2AEret.jpg",
+      "backdrop_path": "/xz9YhlTE5gdr1mrQkY01vDvQF59.jpg",
+      "genres": [
+        "Komedie",
+        "Krimi",
+        "Drama"
+      ],
+      "categories": [
+        "tv_trending"
+      ],
+      "quality": "HD",
+      "has_cz_dubbing": false
+    },
+    {
+      "id": 695721,
+      "media_type": "movie",
+      "title": "Hunger Games: Balada o ptácích a hadech",
+      "original_title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "year": 2023,
+      "overview": "Začínají desáté Hladové hry. Osmnáctiletý Coriolanus Snow čeká jen na to, jak v nich zazáří. Tentokrát jako mentor jednoho z vyvolených. Tvrdě dřel, aby dokázal naplno využít svůj šarm, znalosti a dovednosti, které mohou dovést vyvoleného k vítětství. Bohužel, štěstěna mu není nakloněna. Dostal ponižující úkol. Trénovat největšího outsidera, dívčí zástupkyni chudého dvanáctého kraje Lucy Gray. V aréně bude probíhat boj na život a na smrt. Mimo arénu se v Coriolanovi ale probouzejí city... a tak se musí rozhodnout, zda bude dodržovat pravidla nebo se bude řídit pudem sebezáchovy, který mu radí něco jiného. Boj o přežití nakonec odhalí, kdo je nevinné ptáče a kdo had, čekající na svou příležitost zaútočit.",
+      "vote_average": 7.0,
+      "poster_path": "/fUw0CJ5qNOBAAkvm4TTDzkjwJFe.jpg",
+      "backdrop_path": "/bk1TitfD4YIGrM6AvljonMCtfnl.jpg",
+      "genres": [
+        "Sci-Fi",
+        "Akční",
+        "Dobrodružný"
+      ],
+      "categories": [
+        "movies_popular",
+        "movies_online",
+        "movies_action",
+        "movies_scifi"
+      ],
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 385687,
+      "media_type": "movie",
+      "title": "Rychle a zběsile 10",
+      "original_title": "Fast X",
+      "year": 2023,
+      "overview": "V pátém díle série Dominic Toretto se svou partou elegantně sejmul mocného brazilského narkobarona. Velkou úlohu v tom sehrály jeden most v Rio de Janeiro a obří sejf, který po něm Domovi parťáci táhli. Nikdo z nich neměl tušení, že svědkem celé události byl zločincův syn Dante. Ten od toho dne osnuje plán pomsty, která má ošklivě postihnout nejen Toretta, ale i všechny jeho blízké, včetně Domova osmiletého syna. A protože na děti se nesahá, rozhodne se Toretto Danteho zastavit. Bohužel však příliš pozdě přijde na to, že tak odhodlanému a rafinovanému soupeři ještě nečelil. Zvlášť když má Dante neskutečný organizační talent a vytvoří tým, který spojuje jediná věc – nenávist k Dominicu Torettovi a jeho kámošům.",
+      "vote_average": 7.0,
+      "poster_path": "/yldJm2GI7kcfoSmtRJBQ9oRZKJy.jpg",
+      "backdrop_path": "/4XM8DUTQb3lhLemJC51Jx4a2EuA.jpg",
+      "genres": [
+        "Akční",
+        "Krimi",
+        "Thriller"
+      ],
+      "categories": [
+        "movies_action",
+        "movies_thriller"
+      ],
+      "quality": "4K",
+      "has_cz_dubbing": false
     },
     {
       "id": 1058424,
@@ -4341,45 +4579,6 @@
       "has_cz_dubbing": false
     },
     {
-      "id": 1473148,
-      "media_type": "movie",
-      "title": "Gentle Monster",
-      "original_title": "Gentle Monster",
-      "year": 2026,
-      "overview": "",
-      "vote_average": 6.9,
-      "poster_path": "/rv3PprTMvEf317skaiTeEYAfJcr.jpg",
-      "backdrop_path": "/A8ZP4aE0gq9FrHydF9HU4LCmrtF.jpg",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "categories": [
-        "movies_trending"
-      ],
-      "quality": "4K",
-      "has_cz_dubbing": false
-    },
-    {
-      "id": 1629051,
-      "media_type": "movie",
-      "title": "Never After Dark",
-      "original_title": "Never After Dark／ネバーアフターダーク",
-      "year": 2026,
-      "overview": "Cestující jasnovidka, která pomáhá ztraceným duším přejít na druhý břeh, se v odlehlém domě setká s mocnou bytostí. Při pátrání po jejím původu odhalí temná tajemství a čelí smrtelné hrozbě z nečekaného zdroje.",
-      "vote_average": 6.9,
-      "poster_path": "/4rDgzOCBREeTaqZvTeFtEcnrju8.jpg",
-      "backdrop_path": "/o73vpmtXq89bfSUMcAulLVN4TKP.jpg",
-      "genres": [
-        "Horor"
-      ],
-      "categories": [
-        "movies_horror"
-      ],
-      "quality": "CZ",
-      "has_cz_dubbing": true
-    },
-    {
       "id": 617126,
       "media_type": "movie",
       "title": "Fantastická 4: První kroky",
@@ -4395,30 +4594,6 @@
         "Akční"
       ],
       "categories": [
-        "movies_action",
-        "movies_scifi"
-      ],
-      "quality": "1080p CZ",
-      "has_cz_dubbing": true
-    },
-    {
-      "id": 695721,
-      "media_type": "movie",
-      "title": "Hunger Games: Balada o ptácích a hadech",
-      "original_title": "The Hunger Games: The Ballad of Songbirds & Snakes",
-      "year": 2023,
-      "overview": "Začínají desáté Hladové hry. Osmnáctiletý Coriolanus Snow čeká jen na to, jak v nich zazáří. Tentokrát jako mentor jednoho z vyvolených. Tvrdě dřel, aby dokázal naplno využít svůj šarm, znalosti a dovednosti, které mohou dovést vyvoleného k vítětství. Bohužel, štěstěna mu není nakloněna. Dostal ponižující úkol. Trénovat největšího outsidera, dívčí zástupkyni chudého dvanáctého kraje Lucy Gray. V aréně bude probíhat boj na život a na smrt. Mimo arénu se v Coriolanovi ale probouzejí city... a tak se musí rozhodnout, zda bude dodržovat pravidla nebo se bude řídit pudem sebezáchovy, který mu radí něco jiného. Boj o přežití nakonec odhalí, kdo je nevinné ptáče a kdo had, čekající na svou příležitost zaútočit.",
-      "vote_average": 6.9,
-      "poster_path": "/fUw0CJ5qNOBAAkvm4TTDzkjwJFe.jpg",
-      "backdrop_path": "/bk1TitfD4YIGrM6AvljonMCtfnl.jpg",
-      "genres": [
-        "Sci-Fi",
-        "Akční",
-        "Dobrodružný"
-      ],
-      "categories": [
-        "movies_popular",
-        "movies_online",
         "movies_action",
         "movies_scifi"
       ],
@@ -4493,25 +4668,71 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 17979,
+      "id": 72190,
       "media_type": "movie",
-      "title": "Vánoční koleda",
-      "original_title": "A Christmas Carol",
-      "year": 2009,
-      "overview": "Ebenezer Vydřigroš začíná vánoční svátky se svým obvyklým skrblickým opovržením. Ale když ho duchové Vánoc minulých, přítomných a budoucích vezmou na cestu, která mu otevře oči a odkryjí mu pravdy, kterým starý Vydřigroš nechtěl uvěřit, musí otevřít své srdce a odčinit špatnosti, dříve než bude příliš pozdě. Kdo by neměl rád kouzlo Vánoc? Zdá se, že jedna osoba na světě se najde. Ebenezer Vydřigroš vstupuje do vánočního období s obvyklým znechucením a se svým věrným zaměstnancem i jeho veselým synovcem jedná s notnou dávkou opovržení. Později téhož dne se Vydřigroš setká s duchem svého zemřelého obchodního společníka Josepha Marleyho, který v posmrtném životě platí za své dřívější bezcitné jednání. Marley doufá, že se mu podaří pomoci Vydřigrošovi, aby se před stejným osudem zachránil ..",
+      "title": "Světová válka Z",
+      "original_title": "World War Z",
+      "year": 2013,
+      "overview": "Gerry Lane pracuje pod hlavičkou Organizace spojených národů jako expert na řešení nejrůznějších krizových situací. Kdykoliv se někde na světě mimořádně vyhrotí místní poměry, Gerry přijede a většinou dokáže identifikovat zdroj krize a nalézt řešení na uklidnění situace. Tyto schopnosti se mu budou náramně hodit, protože v podobnou horkou destinaci se právě proměnil celý svět. Lidstvo začala ve velkém decimovat virová epidemie gigantických proporcí, a pokud se ji nepodaří co nejrychleji zastavit, nebude už koho zachraňovat. Situace je o to horší, že se virus projevuje nebývalou agresivitou nakažených, kteří záměrně napadají ty, jimž se nemoc zatím vyhýbá. Uprostřed apokalypsy musí Gerry najít zdroj nákazy, protože bez jeho lokalizace nelze v boji s  neviditelným nepřítelem uspět. Hledání příslovečné jehly v kupce sena by pravděpodobně bylo mnohem snazší, protože cíl Gerryho mise se může ukrývat kdekoliv na světě.",
       "vote_average": 6.9,
-      "poster_path": "/e0G8D8G1eMJ38A293JoHYkeZGiI.jpg",
-      "backdrop_path": "/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
+      "poster_path": "/nPqGRsd5ITU13PTtzm6EPVNBH4i.jpg",
+      "backdrop_path": "/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
       "genres": [
-        "Animovaný",
-        "Rodinný",
-        "Fantasy",
-        "Drama"
+        "Akční",
+        "Horor",
+        "Sci-Fi"
       ],
       "categories": [
-        "movies_animation"
+        "movies_horror"
       ],
       "quality": "1080p CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 10138,
+      "media_type": "movie",
+      "title": "Iron Man 2",
+      "original_title": "Iron Man 2",
+      "year": 2010,
+      "overview": "Zatímco většina maskovaných reků neúnavně střídá civilní a neporazitelnou, tajnou identitu, zručný vynálezce a zbrojař Tony Stark v přímém přenosu do celého světa vyzvonil, že pod kovovým oplechováním se skrývá on. Bezprecedentní odhalení samozřejmě nese následky. O Iron Mana se začne vehementně zajímat vláda Spojených států, která chce Tonyho Starka zlanařit do svých služeb. Nespí pochopitelně ani konkurence a nepřátelé...",
+      "vote_average": 6.9,
+      "poster_path": "/dPomoMZZcxSxLIgckRENDIX8JOq.jpg",
+      "backdrop_path": "/7lmBufEG7P7Y1HClYK3gCxYrkgS.jpg",
+      "genres": [
+        "Dobrodružný",
+        "Akční",
+        "Sci-Fi"
+      ],
+      "categories": [
+        "movies_scifi"
+      ],
+      "quality": "4K CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 1616687,
+      "media_type": "movie",
+      "title": "Nikdy se nevzdávej",
+      "original_title": "Serangan Balik",
+      "year": 2026,
+      "overview": "Utrápený veterán žije na odlehlém místě s vnoučaty, které sotva zná. Jestli ale chtějí přežít útok nebezpečného gangu, musí všichni táhnout za jeden provaz.",
+      "vote_average": 6.8,
+      "poster_path": "/9wypfSz5OyWnew6mt5hviGw6WhM.jpg",
+      "backdrop_path": "/bjt53Hjqwl9VrtJkDv39GwmE1QN.jpg",
+      "genres": [
+        "Akční",
+        "Krimi",
+        "Thriller"
+      ],
+      "categories": [
+        "movies_new",
+        "movies_trending",
+        "movies_popular",
+        "movies_online",
+        "movies_action",
+        "movies_thriller"
+      ],
+      "quality": "SD CZ",
       "has_cz_dubbing": true
     },
     {
@@ -4539,52 +4760,6 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 1514026,
-      "media_type": "movie",
-      "title": "Buddy",
-      "original_title": "Buddy",
-      "year": 2026,
-      "overview": "Kouzelný, zpívající oranžový jednorožec drží herce jako rukojmí v surrealistické dimenzi televizní show, zatímco se stává čím dál tím šílenějším.",
-      "vote_average": 6.8,
-      "poster_path": "/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
-      "backdrop_path": "/sMmG82PtjK8A9rVc34gwKQtCm3A.jpg",
-      "genres": [
-        "Horor",
-        "Komedie",
-        "Fantasy"
-      ],
-      "categories": [
-        "movies_new",
-        "movies_popular",
-        "movies_online",
-        "movies_comedy",
-        "movies_horror"
-      ],
-      "quality": "CZ",
-      "has_cz_dubbing": true
-    },
-    {
-      "id": 1458300,
-      "media_type": "movie",
-      "title": "Komáří pohár",
-      "original_title": "The Mosquito Bowl",
-      "year": 2026,
-      "overview": "Po japonském útoku na Pearl Harbor narukují čtyři hvězdy amerického fotbalu k mariňákům. V jejich řadách pak objeví sílu bratrství a zjistí, jakou daň si vybírá válka.",
-      "vote_average": 6.8,
-      "poster_path": "/uxYs0bNTF4XzM8LThJk2x3AJ0Iv.jpg",
-      "backdrop_path": "/k2djfMwL3LhpvZMfPN7IFX4DG5N.jpg",
-      "genres": [
-        "Válečný",
-        "Historický",
-        "Drama"
-      ],
-      "categories": [
-        "movies_trending"
-      ],
-      "quality": "1080p CZ",
-      "has_cz_dubbing": true
-    },
-    {
       "id": 1474226,
       "media_type": "movie",
       "title": "El vestido",
@@ -4596,27 +4771,6 @@
       "backdrop_path": "/ftfnS4ABocBNkwrvkIjkkxaBjgH.jpg",
       "genres": [
         "Horor"
-      ],
-      "categories": [
-        "movies_horror"
-      ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
-    },
-    {
-      "id": 1290418,
-      "media_type": "movie",
-      "title": "The Cycle",
-      "original_title": "The Cycle",
-      "year": 2026,
-      "overview": "Příběh sleduje forenzní antropoložku Meg Garland (Deborah Ann Woll), kterou policie přizve k vyšetřování brutální, zvířecí vraždy matky a dcery. Na místě činu kriminalisté nečekaně objeví ještě třetí, zohavené tělo, které je šokující identifikováno jako Megin odcizený otec, jenž byl pohřešovaný celých 36 let. Meg se pouští do vyšetřování otcovy temné minulosti a případ se v polovině filmu zvrtne v nadpřirozenou noční můru, když vyjde najevo, že její otec byl stižen vlkodlačí kletbou a město stále terorizuje krvelačné monstrum.",
-      "vote_average": 6.8,
-      "poster_path": "/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
-      "backdrop_path": "/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
-      "genres": [
-        "Horor",
-        "Thriller",
-        "Mysteriózní"
       ],
       "categories": [
         "movies_horror"
@@ -4691,27 +4845,28 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 1611767,
+      "id": 1514026,
       "media_type": "movie",
-      "title": "Vánoce na sílu",
-      "original_title": "Clashing Through the Snow",
+      "title": "Buddy",
+      "original_title": "Buddy",
       "year": 2026,
-      "overview": "Soupeřící nakladatelské editory Ryana Mitchella a Hannah Hendricksovou na cestě překvapí vánoční sněhová bouře. Jsou nuceni společně si pronajmout auto na cestu do New Yorku, kde oba očekává příležitost na záchranu kariéry. S přibývajícími lapáliemi a zajížďkami do malých měst po cestě sváteční nálada zvolna přetaví jejich zuřivé soupeření v něco nečekaného.",
+      "overview": "Kouzelný, zpívající oranžový jednorožec drží herce jako rukojmí v surrealistické dimenzi televizní show, zatímco se stává čím dál tím šílenějším.",
       "vote_average": 6.7,
-      "poster_path": "/7hp2jiRgTDJFdASaZdFLKERbc7Z.jpg",
-      "backdrop_path": "/x6kwEsxxqLIoqpIrZOXRV0LORqm.jpg",
+      "poster_path": "/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
+      "backdrop_path": "/sMmG82PtjK8A9rVc34gwKQtCm3A.jpg",
       "genres": [
-        "Romantický",
-        "Komedie"
+        "Horor",
+        "Komedie",
+        "Fantasy"
       ],
       "categories": [
         "movies_new",
-        "movies_trending",
         "movies_popular",
         "movies_online",
-        "movies_comedy"
+        "movies_comedy",
+        "movies_horror"
       ],
-      "quality": "SD CZ",
+      "quality": "CZ",
       "has_cz_dubbing": true
     },
     {
@@ -4729,11 +4884,30 @@
         "Thriller"
       ],
       "categories": [
-        "movies_action",
         "movies_thriller"
       ],
       "quality": "SD CZ",
       "has_cz_dubbing": true
+    },
+    {
+      "id": 426063,
+      "media_type": "movie",
+      "title": "Nosferatu",
+      "original_title": "Nosferatu",
+      "year": 2024,
+      "overview": "Starověký transylvánský upír se v Německu 19. století stane posedlým vystrašenou mladou ženou, což přináší nevýslovnou hrůzu.",
+      "vote_average": 6.7,
+      "poster_path": "/6pyJ6j6gizcdq1aB9kOmb4azQU6.jpg",
+      "backdrop_path": "/2gAStVyyv9C3BSEKhP0a1aM3Qy9.jpg",
+      "genres": [
+        "Horor",
+        "Fantasy"
+      ],
+      "categories": [
+        "movies_horror"
+      ],
+      "quality": "1080p",
+      "has_cz_dubbing": false
     },
     {
       "id": 760104,
@@ -4752,6 +4926,53 @@
         "movies_horror"
       ],
       "quality": "1080p CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 1400837,
+      "media_type": "movie",
+      "title": "Neskutečná máma",
+      "original_title": "Other Mommy",
+      "year": 2026,
+      "overview": "Bela je bezstarostná osmiletá holka vyrůstající v harmonické rodině, která má stejně jako spousta dalších dětí svého imaginárního přítele, který jí pomáhá překonávat samotu. V jejím případě má však podobu její vlastní matky, jen se nechová jako milující lidská bytost. Právě naopak, každá její interakce s Belou nahání husí kůži a pocit přítomnosti čehosi zlověstného je čím dál intenzívnější. Mnohem horší ale je, že tahle bytost není zdaleka tak imaginární, jak by si Bela a její rodiče přáli.",
+      "vote_average": 6.6,
+      "poster_path": "/wC63aSSosgURJpfDLadm4gbDpxd.jpg",
+      "backdrop_path": "/smZ8BT4Vzw4iCEppTLCnN8jNYtn.jpg",
+      "genres": [
+        "Horor"
+      ],
+      "categories": [
+        "movies_new",
+        "movies_trending",
+        "movies_popular",
+        "movies_online",
+        "movies_horror"
+      ],
+      "quality": "4K",
+      "has_cz_dubbing": false
+    },
+    {
+      "id": 1813355,
+      "media_type": "movie",
+      "title": "TO: Příběh z Derry",
+      "original_title": "A Story of Derry",
+      "year": 2026,
+      "overview": "Stovky let před Pennywisem se tři mladí lidé vydají do Západního lesa, kde se střetnou s děsivým prastarým duchem.",
+      "vote_average": 6.6,
+      "poster_path": "/4D05mYc84zBxeTsSRVbimTio0rh.jpg",
+      "backdrop_path": "/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
+      "genres": [
+        "Drama",
+        "Horor",
+        "Mysteriózní"
+      ],
+      "categories": [
+        "movies_new",
+        "movies_popular",
+        "movies_online",
+        "movies_horror"
+      ],
+      "quality": "4K CZ",
       "has_cz_dubbing": true
     },
     {
@@ -4779,30 +5000,6 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 1813355,
-      "media_type": "movie",
-      "title": "TO: Příběh z Derry",
-      "original_title": "A Story of Derry",
-      "year": 2026,
-      "overview": "Stovky let před Pennywisem se tři mladí lidé vydají do Západního lesa, kde se střetnou s děsivým prastarým duchem.",
-      "vote_average": 6.6,
-      "poster_path": "/4D05mYc84zBxeTsSRVbimTio0rh.jpg",
-      "backdrop_path": "/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
-      "genres": [
-        "Drama",
-        "Horor",
-        "Mysteriózní"
-      ],
-      "categories": [
-        "movies_new",
-        "movies_popular",
-        "movies_online",
-        "movies_horror"
-      ],
-      "quality": "4K CZ",
-      "has_cz_dubbing": true
-    },
-    {
       "id": 1081003,
       "media_type": "movie",
       "title": "Supergirl",
@@ -4818,7 +5015,7 @@
         "Sci-Fi"
       ],
       "categories": [
-        "movies_trending"
+        "movies_scifi"
       ],
       "quality": "1080p CZ",
       "has_cz_dubbing": true
@@ -4844,27 +5041,28 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 1400837,
+      "id": 1131943,
       "media_type": "movie",
-      "title": "Neskutečná máma",
-      "original_title": "Other Mommy",
+      "title": "Madden",
+      "original_title": "Madden",
       "year": 2026,
-      "overview": "Bela je bezstarostná osmiletá holka vyrůstající v harmonické rodině, která má stejně jako spousta dalších dětí svého imaginárního přítele, který jí pomáhá překonávat samotu. V jejím případě má však podobu její vlastní matky, jen se nechová jako milující lidská bytost. Právě naopak, každá její interakce s Belou nahání husí kůži a pocit přítomnosti čehosi zlověstného je čím dál intenzívnější. Mnohem horší ale je, že tahle bytost není zdaleka tak imaginární, jak by si Bela a její rodiče přáli.",
+      "overview": "MADDEN je inspirován životem jedné z největších amerických ikon. Vypráví příběh Johna Maddena a jeho nejlepšího přítele Ala Davise. Od triumfu v Super Bowlu s týmem Raiders přes kariéru komentátora amerického fotbalu, až po vznik legendární videohry Madden NFL. Film je oslavou výjimečného člověka, který svým talentem, osobností a láskou ke sportu a lidem dokázal oslovit celé generace.",
       "vote_average": 6.5,
-      "poster_path": "/wC63aSSosgURJpfDLadm4gbDpxd.jpg",
-      "backdrop_path": "/smZ8BT4Vzw4iCEppTLCnN8jNYtn.jpg",
+      "poster_path": "/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
+      "backdrop_path": "/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
       "genres": [
-        "Horor"
+        "Drama",
+        "Historický",
+        "Komedie"
       ],
       "categories": [
         "movies_new",
         "movies_trending",
-        "movies_popular",
         "movies_online",
-        "movies_horror"
+        "movies_comedy"
       ],
-      "quality": "4K",
-      "has_cz_dubbing": false
+      "quality": "1080p CZ",
+      "has_cz_dubbing": true
     },
     {
       "id": 1437511,
@@ -4882,36 +5080,11 @@
         "Thriller"
       ],
       "categories": [
-        "movies_new",
-        "movies_trending",
         "movies_action",
         "movies_thriller"
       ],
       "quality": "1080p",
       "has_cz_dubbing": false
-    },
-    {
-      "id": 1518204,
-      "media_type": "movie",
-      "title": "Allen",
-      "original_title": "Allen",
-      "year": 2026,
-      "overview": "Petey pořád žije vzpomínkami na dávné setkání s mimozemšťanem. Jeho starý kamarád se ale po dvaceti letech vrátí na planetu Zemi a má k tomu dost překvapivý důvod.",
-      "vote_average": 6.5,
-      "poster_path": "/asB4EtQypdqDSTqkyjpSWB7fNUN.jpg",
-      "backdrop_path": "/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
-      "genres": [
-        "Sci-Fi",
-        "Dobrodružný",
-        "Komedie"
-      ],
-      "categories": [
-        "movies_trending",
-        "movies_comedy",
-        "movies_scifi"
-      ],
-      "quality": "4K CZ",
-      "has_cz_dubbing": true
     },
     {
       "id": 1657630,
@@ -4931,7 +5104,6 @@
         "Thriller"
       ],
       "categories": [
-        "movies_thriller",
         "movies_horror"
       ],
       "quality": "1080p",
@@ -4979,25 +5151,6 @@
       "has_cz_dubbing": false
     },
     {
-      "id": 1128204,
-      "media_type": "movie",
-      "title": "Feed",
-      "original_title": "Feed",
-      "year": 2026,
-      "overview": "",
-      "vote_average": 6.4,
-      "poster_path": "/nICoMIb6FcHqnrKeO43zKY3w8vT.jpg",
-      "backdrop_path": "/4ZeaWA6DzFVOjWTi70b9ZAaQktf.jpg",
-      "genres": [
-        "Horor"
-      ],
-      "categories": [
-        "movies_horror"
-      ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
-    },
-    {
       "id": 801688,
       "media_type": "movie",
       "title": "Kalki 2898-AD",
@@ -5042,31 +5195,6 @@
       ],
       "quality": "4K CZ",
       "has_cz_dubbing": true
-    },
-    {
-      "id": 1615596,
-      "media_type": "movie",
-      "title": "Best Pancakes in the County",
-      "original_title": "Best Pancakes in the County",
-      "year": 2026,
-      "overview": "",
-      "vote_average": 6.3,
-      "poster_path": "/wXVYDQl2ENk3NhT1ETS4C8cAEOC.jpg",
-      "backdrop_path": "/34eWzsWpZa17DqT8KeL5InlvRK7.jpg",
-      "genres": [
-        "Akční",
-        "Thriller",
-        "Krimi"
-      ],
-      "categories": [
-        "movies_new",
-        "movies_popular",
-        "movies_online",
-        "movies_action",
-        "movies_thriller"
-      ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
     },
     {
       "id": 1273221,
@@ -5149,26 +5277,6 @@
       "has_cz_dubbing": false
     },
     {
-      "id": 1379486,
-      "media_type": "movie",
-      "title": "Viktoriánské psycho",
-      "original_title": "Victorian Psycho",
-      "year": 2026,
-      "overview": "V roce 1858 přijíždí guvernantka Winifred Notty (Maika Monroe) do odlehlého gotického sídla známého jako Ensor House. Winifred má na starosti učit děti správnému stolování a vzdělávat je v historii jejich rodiny — a přitom skrývat své psychopatické sklony. Jak se Winifred postupně začleňuje do života v Ensor House, členové služebnictva začínají záhadně mizet a majitelé panství si začínají klást otázku, zda s jejich novou guvernantkou není něco v nepořádku.",
-      "vote_average": 6.3,
-      "poster_path": "/lvhgNskfEWWoabjJZjTwkMH6VnM.jpg",
-      "backdrop_path": "/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg",
-      "genres": [
-        "Horor",
-        "Thriller"
-      ],
-      "categories": [
-        "movies_horror"
-      ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
-    },
-    {
       "id": 254630,
       "media_type": "tv",
       "title": "12 12 12",
@@ -5190,25 +5298,27 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 153518,
+      "id": 1153576,
       "media_type": "movie",
-      "title": "Angry Birds ve filmu",
-      "original_title": "The Angry Birds Movie",
-      "year": 2016,
-      "overview": "Film nás zavede na ostrov, kde žijí nelétaví, ale jinak velice šťastní ptáci. Až na pár výjimek. Ruďák, věčně vzteklý opeřenec, neposedný Žluťas a výbušný Bombas tvoří v tropickém ráji partičku neoblíbených outsiderů. Když však na ostrov dorazí záhadná zelená prasata, musí tahle nesourodá skupinka zjistit, co mají vepři za lubem a svůj ostrov před nimi zachránit.",
-      "vote_average": 6.3,
-      "poster_path": "/9ZcB9RBYCYmuB3vP2m4HP0khcJp.jpg",
-      "backdrop_path": "/o4mhrLxv6I70kvYA42qANGUF7ya.jpg",
+      "title": "Street Fighter",
+      "original_title": "Street Fighter",
+      "year": 2026,
+      "overview": "Bývalá legenda bojových umění Ken Mastersprávě na vlastní kůži poznává, že světská sláva je fakt jen polní sláva, protože po letech vítězství, obdivu, bohatství, chlastu a holek, mu zbyl už jen ten chlast. Když mu tedy lehce záhadná Chun-Li nabídne, aby se zúčastnil připravovaného celosvětového turnaje těch největších ranařů, zatáhne rostoucí panděro a bez ohledu na možné důsledky s účastí souhlasí. Absence formy nebude jediným problémem, se kterým se bude Ken potýkat. Turnaje se totiž zúčastní i Ryu, jeho bývalý pokrevní bratr, se kterým se kdysi rozhádal. A to pořád není ta hlavní špatná zpráva. Organizátorovi turnaje nejde o ty nejkvalitnější sportovní výkony a korunovaci nejlepšího bojovníka, ale chce realizovat děsivě ďábelský plán, jenž mu při souhře okolností pomůže ovládnout celý svět. Před Kenem tak leží pořádná výzva a jestli v ní neuspěje, bude to pro všechny znamenat GAME OVER.",
+      "vote_average": 6.2,
+      "poster_path": "/1r8IbJqmctfcAEw8KMmHhE63fA9.jpg",
+      "backdrop_path": "/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
       "genres": [
-        "Animovaný",
-        "Dobrodružný",
+        "Akční",
         "Komedie",
-        "Rodinný"
+        "Fantasy"
       ],
       "categories": [
-        "movies_animation"
+        "movies_new",
+        "movies_trending",
+        "movies_action",
+        "movies_comedy"
       ],
-      "quality": "1080p CZ",
+      "quality": "720p CZ",
       "has_cz_dubbing": true
     },
     {
@@ -5228,35 +5338,10 @@
       "categories": [
         "movies_new",
         "movies_trending",
-        "movies_online",
         "movies_thriller"
       ],
       "quality": "4K CZ",
       "has_cz_dubbing": true
-    },
-    {
-      "id": 1153576,
-      "media_type": "movie",
-      "title": "Street Fighter",
-      "original_title": "Street Fighter",
-      "year": 2026,
-      "overview": "Bývalá legenda bojových umění Ken Mastersprávě na vlastní kůži poznává, že světská sláva je fakt jen polní sláva, protože po letech vítězství, obdivu, bohatství, chlastu a holek, mu zbyl už jen ten chlast. Když mu tedy lehce záhadná Chun-Li nabídne, aby se zúčastnil připravovaného celosvětového turnaje těch největších ranařů, zatáhne rostoucí panděro a bez ohledu na možné důsledky s účastí souhlasí. Absence formy nebude jediným problémem, se kterým se bude Ken potýkat. Turnaje se totiž zúčastní i Ryu, jeho bývalý pokrevní bratr, se kterým se kdysi rozhádal. A to pořád není ta hlavní špatná zpráva. Organizátorovi turnaje nejde o ty nejkvalitnější sportovní výkony a korunovaci nejlepšího bojovníka, ale chce realizovat děsivě ďábelský plán, jenž mu při souhře okolností pomůže ovládnout celý svět. Před Kenem tak leží pořádná výzva a jestli v ní neuspěje, bude to pro všechny znamenat GAME OVER.",
-      "vote_average": 6.2,
-      "poster_path": "/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
-      "backdrop_path": "/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
-      "genres": [
-        "Akční",
-        "Komedie",
-        "Fantasy"
-      ],
-      "categories": [
-        "movies_new",
-        "movies_trending",
-        "movies_action",
-        "movies_comedy"
-      ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
     },
     {
       "id": 1159559,
@@ -5275,6 +5360,28 @@
       ],
       "categories": [
         "movies_horror"
+      ],
+      "quality": "CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 49013,
+      "media_type": "movie",
+      "title": "Auta 2",
+      "original_title": "Cars 2",
+      "year": 2011,
+      "overview": "Hvězdné závodní auto Blesk McQueen a jeho přítel, jedinečný odtahový vůz Burák, se dostanou na úžasná místa, když je jejich cesta zavede za moře. Tam budou soutěžit ve vůbec prvním celosvětovém závodě Grand Prix, kde se má rozhodnout o nejrychlejším autě na světě. Ale cesta na šampionát je plná děr, objížděk a komických překvapení, když se Burák připlete do svého vlastního netušeného dobrodružství - mezinárodní špionáže. Burák, který je rozpolcený tím, že má Bleskovi McQueenovi pomáhat ve vysokém závodu a zároveň se účastnit špionážní mise s nejvyšším utajením, se na své cestě plné akcí dostane do honičky, která ho zavede do ulic Japonska a Evropy, kde ho stopují jeho přátelé a sleduje celý svět. K legraci, která se odehrává v rychlém tempu se přidává pestrá směsice nových účinkujících aut včetně tajných agentů, hrozných darebáků a mezinárodních soupeřů.",
+      "vote_average": 6.2,
+      "poster_path": "/2scJmiZZtoBXCumpWfmhcVJ2O89.jpg",
+      "backdrop_path": "/robYRZk9LxJTwD7GlZCginji5k.jpg",
+      "genres": [
+        "Animovaný",
+        "Rodinný",
+        "Dobrodružný",
+        "Komedie"
+      ],
+      "categories": [
+        "movies_animation"
       ],
       "quality": "4K CZ",
       "has_cz_dubbing": true
@@ -5301,6 +5408,30 @@
         "movies_action",
         "movies_thriller",
         "movies_horror"
+      ],
+      "quality": "SD CZ",
+      "has_cz_dubbing": true
+    },
+    {
+      "id": 1611767,
+      "media_type": "movie",
+      "title": "Vánoce na sílu",
+      "original_title": "Clashing Through the Snow",
+      "year": 2026,
+      "overview": "Soupeřící nakladatelské editory Ryana Mitchella a Hannah Hendricksovou na cestě překvapí vánoční sněhová bouře. Jsou nuceni společně si pronajmout auto na cestu do New Yorku, kde oba očekává příležitost na záchranu kariéry. S přibývajícími lapáliemi a zajížďkami do malých měst po cestě sváteční nálada zvolna přetaví jejich zuřivé soupeření v něco nečekaného.",
+      "vote_average": 6.1,
+      "poster_path": "/7hp2jiRgTDJFdASaZdFLKERbc7Z.jpg",
+      "backdrop_path": "/x6kwEsxxqLIoqpIrZOXRV0LORqm.jpg",
+      "genres": [
+        "Romantický",
+        "Komedie"
+      ],
+      "categories": [
+        "movies_new",
+        "movies_trending",
+        "movies_popular",
+        "movies_online",
+        "movies_comedy"
       ],
       "quality": "SD CZ",
       "has_cz_dubbing": true
@@ -5347,6 +5478,31 @@
       "has_cz_dubbing": true
     },
     {
+      "id": 1615596,
+      "media_type": "movie",
+      "title": "Best Pancakes in the County",
+      "original_title": "Best Pancakes in the County",
+      "year": 2026,
+      "overview": "",
+      "vote_average": 6.0,
+      "poster_path": "/wXVYDQl2ENk3NhT1ETS4C8cAEOC.jpg",
+      "backdrop_path": "/34eWzsWpZa17DqT8KeL5InlvRK7.jpg",
+      "genres": [
+        "Akční",
+        "Thriller",
+        "Krimi"
+      ],
+      "categories": [
+        "movies_new",
+        "movies_popular",
+        "movies_online",
+        "movies_action",
+        "movies_thriller"
+      ],
+      "quality": "1080p",
+      "has_cz_dubbing": false
+    },
+    {
       "id": 4386,
       "media_type": "tv",
       "title": "Pobřežní hlídka",
@@ -5363,6 +5519,25 @@
       ],
       "categories": [
         "tv_popular"
+      ],
+      "quality": "1080p",
+      "has_cz_dubbing": false
+    },
+    {
+      "id": 290826,
+      "media_type": "tv",
+      "title": "DIG",
+      "original_title": "DIG",
+      "year": 2026,
+      "overview": "",
+      "vote_average": 5.9,
+      "poster_path": "/eyW6V0R0SzG3BqtYKhlZKGBaUCn.jpg",
+      "backdrop_path": "/apHJDHRa0LMtZlcMvKK74InRMfc.jpg",
+      "genres": [
+        "Komedie"
+      ],
+      "categories": [
+        "tv_trending"
       ],
       "quality": "1080p",
       "has_cz_dubbing": false
@@ -5392,32 +5567,13 @@
       "has_cz_dubbing": true
     },
     {
-      "id": 290826,
-      "media_type": "tv",
-      "title": "DIG",
-      "original_title": "DIG",
-      "year": 2026,
-      "overview": "",
-      "vote_average": 5.8,
-      "poster_path": "/eyW6V0R0SzG3BqtYKhlZKGBaUCn.jpg",
-      "backdrop_path": "/apHJDHRa0LMtZlcMvKK74InRMfc.jpg",
-      "genres": [
-        "Komedie"
-      ],
-      "categories": [
-        "tv_trending"
-      ],
-      "quality": "1080p",
-      "has_cz_dubbing": false
-    },
-    {
       "id": 1284046,
       "media_type": "movie",
       "title": "Onslaught",
       "original_title": "Onslaught",
       "year": 2026,
       "overview": "Akční hororový thriller, který sleduje matku, jež se spoléhá na své speciální schopnosti, když z vojenské základny unikne neznámá hrozba.",
-      "vote_average": 5.6,
+      "vote_average": 5.7,
       "poster_path": "/eAs7G3yFaULpfwfVdGvPo5HmFJS.jpg",
       "backdrop_path": "/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
       "genres": [
@@ -5527,7 +5683,7 @@
       "original_title": "Blade Runner 2099",
       "year": 2026,
       "overview": "Cora, uprchlice, která se stala Blade Runnerem, spojí síly s umírající replikantkou Olwen, aby v nově zrozeném Los Angeles vypátraly jiného uprchlíka. Společně odhalí pravdu, která hrozí zničením jejich křehkého města.",
-      "vote_average": 5.1,
+      "vote_average": 5.2,
       "poster_path": "/d8IKBDXQvj3d6clsjqydT4xcw14.jpg",
       "backdrop_path": "/rACaCUxa8WAxkqdpZl0vGqBmIJg.jpg",
       "genres": [
@@ -5580,7 +5736,6 @@
         "Horor"
       ],
       "categories": [
-        "movies_thriller",
         "movies_horror"
       ],
       "quality": "1080p",
@@ -5600,7 +5755,6 @@
         "Horor"
       ],
       "categories": [
-        "movies_online",
         "movies_horror"
       ],
       "quality": "HD",
@@ -5751,7 +5905,7 @@
       "overview": "",
       "vote_average": 0.0,
       "poster_path": "/6spxkjxCcog8HR3cLsDVROsjz3h.jpg",
-      "backdrop_path": "/8ETWSVaRiNGst4LUNZHiQ9J2bJV.jpg",
+      "backdrop_path": "/4737GKC5SaD0L7hbjxBG1DF7c4R.jpg",
       "genres": [
         "Sci-Fi a Fantasy",
         "Akční a dobrodružný"
